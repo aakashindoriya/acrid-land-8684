@@ -1,21 +1,167 @@
 /* slide bar section */
 #slide_Bar{
     border: 1px solid red;
+    /* width: 100%; */
+    height: 314px;
+    position : relative; 
+    top : 0px; 
+    left : 0px; 
+    /* width : 1519px;  */
+    box-sizing : border-box; 
+}
+#slide_Bar>img{
+    display: none;
     width: 100%;
+}
+.slide_btn{
+    width : 24px; 
+    height : 2px; 
+    padding : 0px; 
+    font-size : 0px; 
+    line-height : 0px; 
+    display : block; 
+    cursor : pointer; 
+    color : rgba(0, 0, 0, 0); 
+    border : 0px none rgba(0, 0, 0, 0); 
+    outline : rgba(0, 0, 0, 0) none 0px; 
+    background : rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; 
+    box-sizing : border-box; 
+}
+    .slide_btn:hover {
+    outline : none; 
 }
 /* <!-- workout section --> */
  #Workout{
-
- }   
-
+    margin-top: 91px;
+    border: 1px solid teal;
+ }
+ #Workout>h2{
+    margin-right : 0px; 
+    margin-left : 0px; 
+    padding-left : 100px; 
+    padding-right : 100px; 
+    box-sizing : border-box;
+    font-family: Poppins-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 400px;
+    font-style: italic;
+ }
+ .img_div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-right : 0px; 
+    margin-left : 0px; 
+    padding-left : 100px; 
+    padding-right : 100px; 
+    box-sizing : border-box; 
+    border: 1px solid red;
+    height: 418px;
+ } 
  /* <!-- spotlight section --> */
 #Spotlight{
-
+    margin-top: 68px;
+    border: 1px solid blue;
+    margin-right : 0px; 
+    margin-left : 0px; 
+    padding-left : 100px; 
+    padding-right : 100px; 
+    box-sizing : border-box; 
+}
+#Spotlight>h2{
+    margin-right : 0px; 
+    margin-left : 0px; 
+    padding-left : 100px; 
+    padding-right : 100px; 
+    box-sizing : border-box;
+    font-family: Poppins-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 400px;
+    font-style: italic;
+ }
+.img_div_2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 31px;
+    margin-right : 0px; 
+    margin-left : 0px; 
+    padding-left : 100px; 
+    padding-right : 100px; 
+    box-sizing : border-box; 
+    border: 1px solid red;
+    height: 418px;
 }
 /* <!-- best sellers section --> */
 #Sellers{
-
+    width: 100%;
+    margin-top: 68px;
+    border: 1px solid blue;
+    margin-right : 0px; 
+    margin-left : 0px; 
+    padding-left : 100px; 
+    padding-right : 100px; 
+    box-sizing : border-box; 
     }
+.btn_3>h2{
+        margin-right : 0px; 
+        margin-left : 0px; 
+        /* padding-left : 100px;  */
+        /* padding-right : 100px;  */
+        box-sizing : border-box;
+        font-family: Poppins-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: #333333;
+        font-weight: 400px;
+        font-style: italic;
+     }
+.btn_3{
+    /* border: 1px solid turquoise; */
+    margin-right : 0px; 
+    margin-left : 0px; 
+    padding-left : 100px; 
+    padding-right : 100px; 
+    box-sizing : border-box; 
+    font-family: Inter-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 35px;
+    Color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    line-height: 10px;
+}
+.img_div_3{
+    width: 10%;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-right : 0px; 
+    margin-left : 0px; 
+    padding-left : 100px; 
+    padding-right : 100px; 
+    margin-bottom : 15px; 
+    flex-direction : column; 
+    box-sizing : border-box; 
+    border: 1px solid blue;
+    height: 556px;
+    position : relative; 
+    top : 0px; 
+    left : 0px; 
+    width : 305px; 
+    margin-bottom : 5px; 
+    object-fit : cover; 
+    box-sizing : border-box;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px; */
+    
+}
+
+
+
 /* <!-- just lauch section --> */
 #Just_Launch{
 
