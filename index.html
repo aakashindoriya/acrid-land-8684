@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/navbar.css"/>
+    <link rel="stylesheet" href="login.css"/>
+</head>
+
+    <body>
+        <div id="kfirstVideo">
+         
+        </div> 
+          <div id="navbar"></div>
+          <!-- <button onclick="openLogin()">click me</button> -->
+        </div>
+        <div id="card_3">
+            <div class="kEliteCard">
+                <h2>cultpass</h2>
+                <h1 style="color: rgb(244, 197, 26);">ELITE</h1>
+               <p>Unlimited access to group classes, all gyms and at-home workouts</p>
+            </div>
+            <div class="kEliteCard">
+                <h2>cultpass</h2>
+                <h1>PRO</h1>
+               <p>Unlimited access to group classes, all gyms and at-home workouts</p>
+            </div>
+            <div class="kEliteCard">
+                <h2>cultpass</h2>
+                <h1 style="color:rgb(212, 26, 184) ;">LIVE</h1>
+               <p>Unlimited access to group classes, all gyms and at-home workouts</p>
+            </div>
+        </div>
+        <div id="animationCard1">
+          <div class="kAniCard" data-aos="zoom-out-up">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,ar_1.488,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_1.png"/>
+          </div>
+          <div class="kAniCard" data-aos="zoom-in-down">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,ar_1.404,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_2.png"/>
+          </div>
+         </div>
+         <h1 class="firstLine" data-aos="zoom-in-down">One membership for all <br/>your fitness needs</h1>
+         <div id="animationCard2">
+           <div class="kAniCard" data-aos="zoom-in-down">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,ar_1.29,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_3.png"/>
+           </div>
+           <div class="kAniCard" data-aos="zoom-in-down">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,ar_1.488,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_4.png" />
+           </div>
+           <div class="kAniCard" data-aos="zoom-in-down">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,ar_1.123,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_5.png" />
+           </div>
+         </div>
+        
+         <!-- add  -->
+         <h1 class="firstLine" data-aos="zoom-in-down">Fun, trainer led group classes</h1>
+         <div id="animationCard2">
+          <div class="kAniCard" data-aos="zoom-in-down">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,ar_2.144,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/text-backdrop-overlay.svg" />
+          </div>
+          <div class="kAniCard" data-aos="zoom-in-down">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,ar_2.144,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/text-backdrop-overlay.svg"/>
+          </div>
+          <div class="kAniCard" data-aos="zoom-in-down">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,ar_2.144,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/text-backdrop-overlay.svg"/>
+          </div>
+        </div>
+        </body>
+
+</html>
+<script type="text/javascript" src="./scripts/login.js"></script>
+<script type="module">
+
+  import {navbar,getLocation} from "./componants/navbar.js"
+  document.getElementById("navbar").innerHTML=navbar()
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({offset:400,duration: 2000,});
+</script>
