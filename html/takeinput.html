@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="img" placeholder="image">
+    <input type="text" id="price" placeholder="price">
+    <input type="text" name="" id="offer" placeholder="offer">
+    <button id="btn" onclick="takeinput()">yupp</button>
+</body>
+</html>
+<script>
+   function takeinput(){
+    let arr=JSON.parse(localStorage.getItem("tests"))||[]
+    let data={
+        image:document.getElementById("img").value,
+        price:document.getElementById("price").value,
+        offer:document.getElementById("offer").value
+    }
+    arr.push(data)
+    localStorage.setItem("tests",JSON.stringify(arr))
+    window.location.reload()
+   }
+
+</script>
