@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="//db.onlinewebfonts.com/c/53cdcb7507a23013519313393248b9bd?family=BrandonTextWeb-Bold" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="../css/navFooterStyle.css">
+    <link href="//db.onlinewebfonts.com/c/47b83f8dbd3bf93e0df5674b32c6a7e4?family=BrandonTextWeb-Regular"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" type="image/x-icon">
+    <title>Mind</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+        }
+        #firsti {
+            width: 100%;
+            height: 100px;
+        }
+
+        #secondi {
+            width: 100%;
+            height: 300px;
+        }
+        #thirdi {
+            width: 75%;
+            margin-left: 12.5%;
+            height: 75px;
+            margin-top: 20px;
+        }
+
+        #cont_2 {
+            width: 75%;
+            margin-left: 12.5%;
+            /* background-color: aqua; */
+            height: 1000px;
+            margin-top: 50px;
+        }
+
+        #fourimg {
+            display: grid;
+            grid-template-columns: repeat(2, 48%);
+        }
+
+        .iamimg {
+            height: 200px;
+            width: 98%;
+            /* background-color: blue; */
+            margin-left: 3%;
+            margin-bottom: 45px;
+
+            border-radius: 10px;
+        }
+
+        #fouri {
+            width: 75%;
+            margin-left: 12.5%;
+            height: 140px;
+            margin-top: 50px;
+        }
+
+        #fiveya {
+            width: 95%;
+            height: 550px;
+            margin-top: 50px;
+            background-color: #CBE6FF;
+            padding: 30px;
+        }
+
+        #fh1 {
+            text-align: center;
+        }
+
+        img {
+            border-radius: 5px;
+        }
+
+        #fh2 {
+            text-align: center;
+            color: rgb(136, 166, 217);
+        }
+
+        #isetitem {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        hr {
+            width: 300px;
+            height: .1px;
+            margin-top: 30px;
+            color: #616263;
+        }
+
+        #isetitem2 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .smallig {
+            display: flex;
+        }
+
+
+
+        .smalligimg {
+            width: 20px;
+            height: 20px;
+            margin-top: 20px;
+            margin-right: 5px;
+        }
+
+        .col {
+            color: #616263;
+            margin-top: 20px;
+        }
+
+        #eighti {
+            display: flex;
+            width: 50%;
+            height: 220px;
+            /* background-color: #ECECEC; */
+            margin-left: 10%;
+        }
+
+        .ninei {
+            display: block;
+            width: 30%;
+            margin: auto;
+        }
+
+        .nineione {
+
+            width: 100%;
+            height: 100px;
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            margin-left: 10px;
+        }
+
+        .nineitwo {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(216, 232, 255);
+            border-radius: 8px;
+            margin-top: 3px;
+            margin-left: 10px;
+        }
+
+        #fivei {
+            width: 100%;
+            height: 130px;
+        }
+
+        #sixi {
+            width: 100%;
+        }
+
+        #seveni {
+            width: 100%;
+        }
+
+        .childfour {
+            position: relative;
+            z-index: -1;
+        }
+
+        .childfour1 {
+            margin-left: 30px;
+            width: 60%;
+            font-size: 14px;
+            position: absolute;
+            top: 0%
+        }
+
+        .childfour hr {
+            width: 15px;
+            height: 2px;
+            color: #616263;
+            background-color: #616263;
+            margin-right: 80%;
+        }
+
+        #faqi {
+            width: 100%;
+            height: 900px;
+            background-color: #F2F4F8;
+            /* text-align: center; */
+            margin: auto;
+        }
+
+        .fabutton {
+            width: 70%;
+            color: #616263;
+            border: none;
+            background: none;
+            margin-top: 40px;
+            font-weight: 600;
+        }
+
+        .fabuttonhh {
+            width: 90%;
+        }
+
+        #text1 {
+            color: #a9a9a9;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #text2 {
+            width: 50%;
+            margin-left: 25%;
+            color: #a9a9a9;
+        }
+
+        #text3 {
+            width: 50%;
+            margin-left: 25%;
+            color: #a9a9a9;
+        }
+
+        #text4 {
+            width: 50%;
+            margin-left: 25%;
+            color: #a9a9a9;
+        }
+
+        #text5 {
+            width: 50%;
+            margin-left: 25%;
+            color: #a9a9a9;
+        }
+
+        #text6 {
+            width: 50%;
+            margin-left: 25%;
+            color: #a9a9a9;
+        }
+
+        #text7 {
+            width: 50%;
+            margin-left: 25%;
+            color: #a9a9a9;
+        }
+
+        #Nikfooter {
+            background-color: black;
+            width: 100%;
+            height: 350px;
+            display: flex;
+        }
+
+        #footerd1 {
+            width: 37%;
+            height: 100%;
+        }
+
+        #footerd1I {
+            width: 30%;
+            margin-left: 20%;
+            margin-top: 10%;
+        }
+
+        #footerd1P {
+            margin-left: 17%;
+            margin-top: 5%;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #a2a2a2;
+        }
+
+        #footerd2 {
+            width: 20%;
+            height: 100%;
+        }
+
+        .nikContact {
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.94;
+            letter-spacing: normal;
+            list-style: none;
+            margin-left: 20%;
+        }
+
+        #footerd3 {
+            width: 20%;
+            height: 100%;
+        }
+
+        #footerd4 {
+            /* width: 20%; */
+            height: 100%;
+        }
+
+        .nikContact1 {
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.94;
+            letter-spacing: normal;
+            list-style: none;
+            margin-left: 15%;
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+<!-----Navbar----------->        
+<div id="innerNavbar">
+    <div id="logo" class="logo">
+        <a href="mind.html">
+            <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" alt="cult fit logo">
+        </a>
+        <div id="spet">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
+                alt="eat" class=" css-130q1oe-ImageElement efaomd31" loading="lazy" width="66.66"
+                height="19.999999999999996">
+        </div>
+    </div>
+    <div id="eatSubpages">
+    <div>
+        <ul>
+            <li id="order"><a href="mind.html">Therapy</a></li>
+            <li><a href="mindfull.html">Mindfulness</a></li>
+
+        </ul>
+    </div>
+    </div>
+    <div id="user-details" class="user-details">
+        <div id="location" class="location">
+
+            <div id="blue-dot" class="blue-dot"></div>
+            <div id="cityName" class="cityName">City</div>
+        </div>
+        <div id="profile">
+            <img src=""
+                style="max-width:100%;max-height:90%">
+        </div>
+        <div id="logged-out" class="logged-out">
+            <div>
+                <img id="image11" src="https://cdn-icons-png.flaticon.com/512/25/25623.png" />
+            </div>
+
+            <div id="logindata">
+
+                <div id="list">
+                    <img class="imgall" src="https://static.cure.fit/assets/images/profile-icon.svg" />
+                    <a class="allat">Profile</a>
+                </div>
+                <div id="list">
+                    <img class="imgall" src="https://static.cure.fit/assets/images/cart-black.svg" />
+                    <a class="allat">Orders</a>
+                </div>
+                <div id="list">
+                    <img class="imgall" src="https://static.cure.fit/assets/images/health-profile-black.svg" />
+                    <a class="allat">Medical Records</a>
+                </div>
+                <div id="list">
+                    <img class="imgall" src="https://static.cure.fit/assets/images/combined-shape-black.svg" />
+                    <a class="allat">Active Packs</a>
+                </div>
+                <div id="list">
+                    <img class="imgall" src="https://static.cure.fit/assets/images/coupon-black.svg" />
+                    <a class="allat">Redeem Vouchers</a>
+                </div>
+                <div id="list">
+                    <img class="imgall" src="https://static.cure.fit/assets/images/settings-black.svg" />
+                    <a class="allat">Account</a>
+                </div>
+                <div id="list">
+                    <img class="imgall" src="https://static.cure.fit/assets/images/support-black.svg" />
+                    <a class="allat">Support</a>
+                </div>
+                <div id="list">
+                    <img class="imgall" src="https://static.cure.fit/assets/images/logout-black.svg" />
+                    <a class="allat" href="">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div id="cart" class="cart">
+            <img id="cartNik" src="https://static.cure.fit/assets/images/cart-image.svg" alt="cart logo">
+        </div>
+    </div>
+</div>
+</div>    
+</body>
+</html>
