@@ -13,60 +13,7 @@
     display: none;
     width: 100%;
 }
-/* .slide_btn{
-    width : 24px; 
-    height : 2px; 
-    padding : 0px; 
-    font-size : 0px; 
-    line-height : 0px; 
-    display : block; 
-    cursor : pointer; 
-    color : rgba(0, 0, 0, 0); 
-    border : 0px none rgba(0, 0, 0, 0); 
-    outline : rgba(0, 0, 0, 0) none 0px; 
-    background : rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; 
-    box-sizing : border-box; 
-} */
-/* <div class="slide_btn">
-        <div class="btn_slide"> */
-.slide_btn { 
-            /* height: 200px; */
-            margin-top: 24px;
-            position: relative;
-            cursor: pointer;
-          }         
-.btn_slide{
-            margin: 0;
-            position: absolute;
-            top: 60%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            border:none;
-            cursor: pointer;
-            height: 7px;
-            width: 26px;
-            border-radius: 25px;
-            background-color: gray;
-          }
-.btn_slide_1{
-            margin: 0;
-            position: absolute;
-            top: 68%;
-            left: 100%;
-            /* -ms-transform: translate(-50%, -50%); */
-            transform: translate(-50%, -50%);
-            border:none;
-            cursor: pointer;
-            height: 7px;
-            width: 26px;
-            border-radius: 25px;
-            background-color: red;
-}
 
-    .slide_btn:hover {
-    outline : none; 
-}
 /* <!-- workout section --> */
  #Workout{
     margin-top: 91px;

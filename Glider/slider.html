@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./slider.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css"> -->
+    <!-- <link rel="stylesheet" href="./swiper-bundle.min.css"> -->
+    <!-- <link rel="stylesheet" href="./glider.min.css"> -->
+</head>
+<body>
+    <!-- glider section -->
+    <div class="glider-contain">
+        <div class="glider">
+          <!-- product-box container -->
+        <div class="product-box" id="container">
+        </div>
+        </div>
+      
+        <button aria-label="Previous" class="glider-prev">«</button>
+        <button aria-label="Next" class="glider-next">»</button>
+        <div role="tablist" class="dots"></div>
+      </div>
+
+    
+</body>
+</html>
+<script src="./productData.js"></script>
+<!-- glider -->
+<script src="./glider.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script>
+    new Glider(document.querySelector('.glider'), {
+  slidesToScroll: 1,
+  slidesToShow: 4,
+  draggable: true,
+  dots: '.dots',
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+});
+</script>

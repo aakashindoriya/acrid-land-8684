@@ -1,0 +1,58 @@
+let Spinbikes = [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/vX1Vgko9H9n3Nn3rdyQnNkrb",
+    "company": "CULTSPORT",
+    "title": "Smartbike c1: Bluetooth enabled spin bike with 8-level magnetic resistance",
+    "price": "₹ 24999",
+    "offer": "39 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nTvMdcZi5B2MzrXZJicv7acr",
+    "company": "CULTSPORT",
+    "title": "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
+    "price": "₹ 26499",
+    "offer": "41 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
+    "company": "OneFitplus",
+    "title": "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
+    "price": "₹ 16699",
+    "offer": "58 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/kTssBkQouVdBHn446kZPn5bG",
+    "company": "CULTSPORT",
+    "title": "smartbike x1 with 22\" HD touchscreen",
+    "price": "₹ 46999",
+    "offer": "61 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/x4H5oZvc2DVoVQ7QzPeF38Ww",
+    "company": "OneFitplus",
+    "title": "OFP-M1, 100 Level Magnetic Resistance Spin Bike",
+    "price": "₹ 20699",
+    "offer": "66 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/FLjqHDVThFb4Sb5MHfch5FHv",
+    "company": "OneFitplus",
+    "title": "OFP-1001 Static Handle with Backrest Upright Stationary Exercise Bike",
+    "price": "₹ 6299",
+    "offer": "48 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/HqCSWS9jkkdQcuEg9Ebz6s1h",
+    "company": "OneFitplus",
+    "title": "OFP-1004 Moving Handle w/o Backrest Upright Stationary Exercise Bike",
+    "price": "₹ 6299",
+    "offer": "43 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/ew2TSnqdtYkxMoyjo1r2r1Vg",
+    "company": "RPM Fitness",
+    "title": "RPM1001 with Backrest &  Free Intallation Upright Stationary Exercise Bike",
+    "price": "₹ 6199",
+    "offer": "48 % Off"
+  }
+]

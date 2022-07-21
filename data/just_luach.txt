@@ -1,0 +1,58 @@
+let justLauched = [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/DHjJcDyA9cmpAJqFt954L5kB",
+    "company": "CULTSPORT",
+    "title": "Cultsport Liquid L-Carnitine, 450ml",
+    "price": "₹ 1399",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fwi2jmJph517We1h3R1xcdvw",
+    "company": "CULTSPORT",
+    "title": "Cultsport Raw Whey 80%, 908g",
+    "price": "₹ 2699",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cfDadvHHySps9QduNkLSeaqv",
+    "company": "CULTSPORT",
+    "title": "Cultsport Elite 100% Whey, 1 Kg",
+    "price": "₹ 3499",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/L5fKq5BFJGzsMrSuqDNnqqWy",
+    "company": "CULTSPORT",
+    "title": "Smartrow c1: Smart Bluetooth enabled Rowing Machine",
+    "price": "₹ 39900",
+    "offer": "60 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/KF46i4r6G5posz6tthrs68Vn",
+    "company": "CULTSPORT",
+    "title": "Smartcross b1: Bluetooth enabled elliptical cross trainer",
+    "price": "₹ 20999",
+    "offer": "46 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/vX1Vgko9H9n3Nn3rdyQnNkrb",
+    "company": "CULTSPORT",
+    "title": "Smartbike c1: Bluetooth enabled spin bike with 8-level magnetic resistance",
+    "price": "₹ 24999",
+    "offer": "39 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/nTvMdcZi5B2MzrXZJicv7acr",
+    "company": "CULTSPORT",
+    "title": "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
+    "price": "₹ 26499",
+    "offer": "41 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/ZJBYsrvTZKUc9QzYK6fh4f8n",
+    "company": "CULTSPORT",
+    "title": "Rimo 27.5\" 21-speed steel MTB (Shimano gears)",
+    "price": "₹ 16999",
+    "offer": "58 % Off"
+  }
+]

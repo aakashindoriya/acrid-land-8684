@@ -1,0 +1,51 @@
+let TREADMILLS = [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/SDgpHbPyumHJkqeM5ehAh6Gh",
+    "company": "Fitkit",
+    "title": "FITKIT 10K 2.5HP DC Motorized Treadmill",
+    "price": "₹ 23699",
+    "offer": "66 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/FsezbKx6Tyj3DAXyHa7bL6hu",
+    "company": "Fitkit",
+    "title": "FT200S 4.5HP DC Motorized Treadmill",
+    "price": "₹ 29699",
+    "offer": "60 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/AqGDxJejHHHFrpVo46VHz4hD",
+    "company": "Fitkit",
+    "title": "FT100M, 3.25HP DC Motorized Treadmill",
+    "price": "₹ 27699",
+    "offer": "50 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
+    "company": "OneFitplus",
+    "title": "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
+    "price": "₹ 16699",
+    "offer": "58 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/s6PK4YzbgEndEtng22EyRZSk",
+    "company": "Fitkit",
+    "title": "FT100S, 3.25HP DC Motorized Treadmill",
+    "price": "₹ 26199",
+    "offer": "48 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/1BfNqT4T2KATPdT49LHJA67G",
+    "company": "RPM Fitness",
+    "title": "RPM 10K 4.5 HP, CE Certified DC Motorized Treadmill",
+    "price": "₹ 33199",
+    "offer": "59 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/fmLdSA6A9LnGt87evVESC2i9",
+    "company": "RPM Fitness",
+    "title": "RPM747SI 3.5 HP DC Motorized Treadmill",
+    "price": "₹ 30699",
+    "offer": "62 % Off"
+  }
+]

@@ -1,0 +1,58 @@
+let cycle = [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/4Jwdn1u2RcKw9xYBM6cZtNBD",
+    "company": "Urban Terrain",
+    "title": "UT3003A26, Black, Alloy MTB 26 T Shimano Geared Mountain Cycle (21 Gear)",
+    "price": "₹ 13999",
+    "offer": "68 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Thbifm3mmLLx3pWffTY8vTMV",
+    "company": "Urban Terrain",
+    "title": "UT2000, Red, Steel MTB 27.5 T Shimano Geared Mountain Cycle (21 Gear)",
+    "price": "₹ 12999",
+    "offer": "74 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/gPwaekWjEnjBg1q3thWowfjV",
+    "company": "Urban Terrain",
+    "title": "UT6000S29, Green, Steel MTB 29 T Shimano Geared Mountain Cycle",
+    "price": "₹ 13999",
+    "offer": "72 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/7ZgbJ1Aj2pvN34SJQKhkQdcE",
+    "company": "Urban Terrain",
+    "title": "BOLT UT5000S26, Green, Steel MTB Disc Brakes, 26 T Mountain Cycle (Single Speed)",
+    "price": "₹ 9199",
+    "offer": "49 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/s47Jf9KyWB1BAZHzWqN5cdiA",
+    "company": "Urban Terrain",
+    "title": "UT3001A27.5, Black, Alloy MTB 27.5 T Shimano Geared Mountain Cycle",
+    "price": "₹ 13999",
+    "offer": "71 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/91o5kH6fEvNrKFHAe7S42tey",
+    "company": "Urban Terrain",
+    "title": "UT3013S27.5, Black, Steel MTB 27.5 T Shimano Geared Mountain Cycle",
+    "price": "₹ 12999",
+    "offer": "72 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/YnaRDF2jE5Tu7eL23T7gascr",
+    "company": "Urban Terrain",
+    "title": "UT7000S26, (Black, Red) Steel, Wire Brake, 26T City Bike (Single Speed)",
+    "price": "₹ 7099",
+    "offer": "41 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/c7XhqwsA6bDpazyU1DLzF22Y",
+    "company": "Urban Terrain",
+    "title": "UT7002S26, (Yellow, Black) Steel, Wire Brake, 26T City Bike (Single Speed)",
+    "price": "₹ 7099",
+    "offer": "41 % Off"
+  }
+]
