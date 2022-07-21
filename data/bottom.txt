@@ -1,0 +1,58 @@
+let BOTTOMWEAR = [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/QsooiXHKUycwsG88BZvho57Z",
+    "company": "CULTSPORT",
+    "title": "Do It All Ombre Prism Tights",
+    "price": "₹ 2404",
+    "offer": "35 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cX1VFobPDHuDze82jZMMcMNJ",
+    "company": "CULTSPORT",
+    "title": "Solid Workout Shorts",
+    "price": "₹ 769",
+    "offer": "45 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/pTbBfD6mNcBnXAr3uAqqLnwn",
+    "company": "CULTSPORT",
+    "title": "Knockout Compression Leggings",
+    "price": "₹ 1539",
+    "offer": "45 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/qc8BDpHombowhQfc8C5MhVZJ",
+    "company": "CULTSPORT",
+    "title": "Tonal Print High Waist Tights",
+    "price": "₹ 1549",
+    "offer": "50 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/whqLrtzJTRtgPEDZLc7u41Gk",
+    "company": "CULTSPORT",
+    "title": "AbsoluteFit Solid Tights",
+    "price": "₹ 1374",
+    "offer": "45 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/QAaddgc8ZHPbG5WjTrn6APPm",
+    "company": "CULTSPORT",
+    "title": "AbsoluteFit Solid Tights",
+    "price": "₹ 1249",
+    "offer": "50 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/NtZ5j632dVdaADtvhvSUR4cj",
+    "company": "CULTSPORT",
+    "title": "Brushstroke Logo Active Shorts",
+    "price": "₹ 1299",
+    "offer": "35 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/HatNb7mmputnndvudERar7Hb",
+    "company": "CULTSPORT",
+    "title": "AbsoluteFit Camo Tights",
+    "price": "₹ 1264",
+    "offer": "45 % Off"
+  }
+]

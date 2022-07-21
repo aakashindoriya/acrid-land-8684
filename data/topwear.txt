@@ -1,0 +1,58 @@
+let topWear = [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/xfyTUvSwRaKGThjzqH54yNHB",
+    "company": "CULTSPORT",
+    "title": "Cleo Slip-on Sports Bra",
+    "price": "₹ 1180",
+    "offer": "38 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/LEE997UW5WoFdSdjAzdrD2ZT",
+    "company": "CULTSPORT",
+    "title": "Seamless Diane Medium Impact Sports Bra",
+    "price": "₹ 1180",
+    "offer": "49 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/DxRCqkWJjsZGQ2mUhWBtsD11",
+    "company": "CULTSPORT",
+    "title": "Seamless Ira Medium Impact Sports Bra",
+    "price": "₹ 899",
+    "offer": "50 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/BSiu1tUZrfLeCitwG36pwce6",
+    "company": "CULTSPORT",
+    "title": "Halftone Print Sports Bra",
+    "price": "₹ 1429",
+    "offer": "45 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Va5gn1P8ZPCumwMpkfKawCwN",
+    "company": "CULTSPORT",
+    "title": "Graphic Print Workout Tshirt",
+    "price": "₹ 879",
+    "offer": "45 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/XwfuJdgJChgfkeyUQeueZH2f",
+    "company": "CULTSPORT",
+    "title": "FormFit Training Sports Bra",
+    "price": "₹ 1180",
+    "offer": "38 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/p1j762x7B1u7KR9kgUEVUAzC",
+    "company": "CULTSPORT",
+    "title": "FormFit Training Sports Bra",
+    "price": "₹ 1049",
+    "offer": "50 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nxHssmzDkfV3gYbuYzMFCnMA",
+    "company": "CULTSPORT",
+    "title": "FormFit Training Sports Bra",
+    "price": "₹ 1049",
+    "offer": "50 % Off"
+  }
+]

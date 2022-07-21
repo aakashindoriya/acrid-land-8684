@@ -1,0 +1,58 @@
+let health = [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/DHjJcDyA9cmpAJqFt954L5kB",
+    "company": "CULTSPORT",
+    "title": "Cultsport Liquid L-Carnitine, 450ml",
+    "price": "₹ 1399",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fwi2jmJph517We1h3R1xcdvw",
+    "company": "CULTSPORT",
+    "title": "Cultsport Raw Whey 80%, 908g",
+    "price": "₹ 2699",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cfDadvHHySps9QduNkLSeaqv",
+    "company": "CULTSPORT",
+    "title": "Cultsport Elite 100% Whey, 1 Kg",
+    "price": "₹ 3499",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/96T9f13kUMuksgadqCbZC1Ys",
+    "company": "Azani",
+    "title": "Azani Calcium & Vitamin D Bone Support Gummies for Adults & Kids |Healthy diet supplement for strong bones (Mango & Strawberry Flavour), 30 Gummies",
+    "price": "₹ 284",
+    "offer": "48 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/7NDUqVUrKSMkeULoXQSptLs6",
+    "company": "Azani",
+    "title": "Azani Plant Mass Gainer 1kg | 1083 Kcal, 45g Vegan Protein, 225g Carbohydrates, 0.5g Chlorella, 0.3g Ashwagandha | Intense Muscle Recovery, Weight Gainer, No Bloating-Natural",
+    "price": "₹ 807",
+    "offer": "33 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/6avFYgdSxkj3AKJiS6nbXLU1",
+    "company": "Azani",
+    "title": "Azani Biotin Hair Gummies with Zinc, Iodine, Vitamin A, B, C, D & E & Folic Acid | Hair Vitamins for Hair Growth, 30 Gummies",
+    "price": "₹ 360",
+    "offer": "40 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/4gUCtbuHsPaUtCem2uqZZDUZ",
+    "company": "Azani",
+    "title": "Azani Pure & Ultra-Strong Omega 3 Fish Oil | Omega 3(1000mg)+Omega 6,7 & 9 + Vitamin D3, 60 Capsules",
+    "price": "₹ 474",
+    "offer": "53 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/CQMnnTY657LQBC4geGybhAb5",
+    "company": "Azani",
+    "title": "Azani Muscle Fuel | Ashwagandha, Shatavari| Muscle Building, Stamina, Strength, 30 Capsules",
+    "price": "₹ 284",
+    "offer": "29 % Off"
+  }
+]
