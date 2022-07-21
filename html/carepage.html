@@ -23,8 +23,125 @@
         <div id="title">Lab Tests</div>
         <div id="subtitle">Assess and monitor your health from the comfort of your home now.</div>
     </div>
-    <div id="cards"></div>
+    <div id="cards">
    </div>
+   <hr>
+ <div id="quickLink">
+    <h1>Quick Links</h1>
+   <a href=""><div>Help & Support</div></a>
+   <hr>
+   <a href="http://static.cure.fit/terms.html"><div>Terms and Conditions</div></a>
+   <hr>
+ </div>
+ <div id="faq">
+    <div id="head">
+        <div>
+            <h1>FAQS</h1>
+            <p>7 QUESTIONS</p>
+        </div>
+        <div>
+            <p>SEE ALL</p>
+        </div>
+    </div>
+    <div id="questions">
+        <div>
+            <div id="q1">
+                <div><h2>. How does home sample collection work?</h2></div>
+                <div id="1" onclick="fun(id)"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/Path.png" alt=""></div>
+            </div>
+            <div id="ans1" style="display: none;">
+                <h4>Once you have chosen a convenient time slot for your booking, and placed an order, our WHO certified health professionals will arrive at your chosen address and collect blood and/or urine samples.  Once samples are collected, they will be processed at one of our partner labs closest to you and the test report will be available on your app and email.</h4>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div id="q2">
+                <div><h2>. Can I reschedule/cancel my diagnostic test appointment?</h2></div>
+                <div id="2" onclick="fun(id)"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/Path.png" alt=""></div>
+            </div>
+            <div id="ans2" style="display: none;">
+                <h4>The appointment can be rescheduled or cancelled 2 hours before your chosen slot. </h4>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div id="q3">
+                <div><h2>. How can I receive my reports on email again ?</h2></div>
+                <div id="3" onclick="fun(id)"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/Path.png" alt=""></div>
+            </div>
+            <div id="ans3" style="display: none;">
+                <h4>You can email your test reports by going to Profile> Activity &Records> Medical Records> Diagnostic Tests and selecting the email reports button.  </h4>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div id="q4">
+                <div><h2>. I did not get my reports on email</h2></div>
+                <div id="4" onclick="fun(id)"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/Path.png" alt=""></div>
+            </div>
+            <div id="ans4" style="display: none;">
+                <h4>Sometimes, mail providers mistakenly mark the reports email as Spam. Please check the spam folder (or) trigger the reports email again on the app   You would have received an SMS after your sample collection indicating the time it would take for results to be available  In case the communicated time has elapsed and you have not received your report on email, please reach out to us at hello@cure.fit . </h4>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div id="q5">
+                <div><h2>.What instructions should I follow for my tests?</h2></div>
+                <div id="5" onclick="fun(id)"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/Path.png" alt=""></div>
+            </div>
+            <div id="ans5" style="display: none;">
+                <h4>All instructions that have to be followed for your tests will be communicated to you at the time of booking a slot. You will also receive an email covering the instructions. </h4>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div id="q6">
+                <div><h2>. How can I get a refund for my Full body Health Check /Diagnostic Screening pack </h2></div>
+                <div id="6" onclick="fun(id)"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/Path.png" alt=""></div>
+            </div>
+            <div id="ans6" style="display: none;">
+                <h4>Only if you have not completed your Full Body health check up/ Diagnostic Screening within 1 year from the purchase date, please write to hello@curefit.com  e.g: If heath check is purchased on 1/10/2019, you can write to us till 1/10/2020. We do not refund any amount for health check ups with a purchase date older than a year. </h4>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div id="q7">
+                <div><h2>. Can I club two or more sample collection slots</h2></div>
+                <div id="7" onclick="fun(id)"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/Path.png" alt=""></div>
+            </div>
+            <div id="ans7" style="display: none;">
+                <h4>We are currently working on enabling multiple orders from the same address (for the same person or different).  Till then, you can request the phlebotomist who comes for the sample collection for the first order, to add on the rest of the tests (for the same person or different).  You can directly pay him via card / UPI / cash for the additional tests purchased.  </h4>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div id="qutoe">
+    <div>THE BEST</div>
+    <div>DOCTER GIVES</div>
+    <div>THE LEAST MEDICINE</div>
+ </div>
+<div id="para">
+    
+</div>
+ </div>
 </body>
 </html>
 <script src="../scripts/carepage.js" type="module"></script>
+<script>
+    let count=0
+    function fun(id){
+        if(count%2==0){
+            let pic=document.getElementById(id)
+        pic.style.transform="rotate(180deg)"
+        let ans=document.getElementById(`ans${id}`)
+        ans.style.display="inherit"
+        }
+        else{
+            let pic=document.getElementById(id)
+        pic.style.transform="rotate(0deg)"
+        let ans=document.getElementById(`ans${id}`)
+        ans.style.display="none"
+        }
+        count++
+    }
+</script>

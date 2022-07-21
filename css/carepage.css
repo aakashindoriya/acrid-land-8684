@@ -54,4 +54,89 @@
    #subtitle{
      color:rgb(95, 85, 85);
    }
+   #quickLink a{
+    text-decoration: none;
+   }
+   #quickLink a>div{
+    display: flex;
+    height: 50px;
+    align-items: center;  
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+   }
+   #quickLink hr{
+    color: rgb(131, 125, 125);
+   }
    /* -------------------------------------------------------------------------------- */
+   #faq{
+    background-color:#171A26;
+    color:#C5BEB4;
+    padding: 3%;
+   }
+   #head{
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   #questions>div>div{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   #questions>div>img{
+    width: 15px;
+    height: 13px;
+
+   }
+   #questions h4{
+    font-weight: lighter;
+    font-size: larger;
+    line-height: 30px ;
+    word-spacing: 5px;
+    color:#C5BEB4 ;
+   }
+   /* //////----------------------------------------------------//////// */
+   #qutoe{
+   
+    height: 240px;
+    padding: 40px 30px;
+   }
+   #qutoe>div:nth-child(1){
+    font-size: 80px;
+    color: #6E6E6E;
+    font-weight: bold;
+   }
+   #qutoe>div:nth-child(2){
+    font-size: 60px;
+    color: #CCCCCC;
+    font-weight: bold;
+   }
+   #qutoe>div:nth-child(3){
+    font-size: 40px;
+    color: #CCCCCC;
+    font-weight: bold;
+   }
+   /* --------------------------------------------------------------------------------- */
+   #paragraph{
+    padding: 5% 15%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    background-color: #171A26;
+   }
+   #paragraph p{
+    line-height: 18px;
+    word-spacing: 3px;
+    color: #585A63;
+    font-size: 14px;
+   }
+   #paragraph h5{
+    word-spacing: 5px;
+    font-size: 16px;
+    color: #92A1A6;
+   }
