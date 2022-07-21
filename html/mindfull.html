@@ -1,0 +1,112 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/mind.css">
+    <link rel = "icon" href ="https://static.cure.fit/assets/images/favicon-modified.png"
+     type = "image/x-icon">
+    <title>Mind Full</title>
+    </head>
+    <body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+    <!------NavDropDown top left---------> 
+    <div id="navbar">
+    <div id="smallScreenNav">
+    <div id="hamburgericon">
+    </div>
+    </div>
+    <div id="innerNavbar">
+    <div id="spet">    
+    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
+    alt="eat" class=" css-130q1oe-ImageElement efaomd31"
+    loading="lazy" width="66.66" height="19.999999999999996">
+    </div>
+    </div>
+    <div id="eatSubpages">
+    <div>
+    <ul>
+    <li id="order"><a href="mind.html" >Fitness</a></li>
+    <li id="order2"><a href="mindfull.html">Mindfulness</a></li>
+    </ul>
+    </div>             
+    </div>
+    </div>
+    </div> 
+    <!-------------------- navBAr---------------------- -->
+    <div id="maincontainer">
+    <div id="text">
+    <h2 >Mindfulness Library</h2>
+    <p>Access our pre-recorded meditation sessions, at your convenience</p>
+
+    </div>
+    <!-------------------- headding ---------------------------------->
+    <div id="cardsContainer">
+    <div class="card1"><!-- 
+    <div class="dis1">
+
+
+
+    </div> -->
+
+    </div>
+    <!-- ------ -->
+    <div class="card2">
+    <!-- <div class="dis2">
+
+    </div> -->
+    <!-- <div class="dis2"> -->
+
+
+
+    <!-- <div class="dis2">
+
+    </div> -->
+    </div>
+
+    </div>
+    </div>
+    </body>
+
+    </html>
+    <script src="../scripts/mindfull.js"></script>
+    <script>
+    let cart=document.getElementById("cartNik")
+    var toggle = false;
+    cart.addEventListener("click",function (){
+    console.log("clicked")
+    if(toggle){
+    toggle = false;
+    chiDiv.style.display = "none"
+    }else{
+    toggle = true;
+    chiDiv.style.display = "block"
+
+    var response = axios.get(`https://cult-fit-clone-w13.herokuapp.com/cart/store`)
+    .then(function(response){
+    storedata =response.data;
+    myFuncN(storedata,"store")
+    }).catch(function (error) {
+    console.log(error);
+    })
+
+    var response = axios.get(`https://cult-fit-clone-w13.herokuapp.com/cart/eat`)
+    .then(function(response){
+    eatdata =response.data
+    }).catch(function (error) {
+    console.log(error);
+    })
+    }
+
+    });
+    </script>
