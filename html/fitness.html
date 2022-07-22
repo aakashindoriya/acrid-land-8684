@@ -84,6 +84,7 @@
 
         #second_3>h1 {
             background: -webkit-linear-gradient(#9f86d9, #db6aae);
+            background-clip: border-box;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -183,6 +184,130 @@
             justify-content: space-between;
 
         }
+        
+                .mapouter {
+                    position: relative;
+                    height: 500px;
+                    width: 600px;
+                   
+                }
+            
+           
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 300px;
+                    width: 500px;
+                    margin-top: 20px;
+                    border:3px solid grey;
+                }
+                .gmap_canvas>h1{
+                    background-color: #15171C;
+                    color:#d9d5d2;
+                }
+                #fourth{
+                    display:flex;
+                    justify-content: center;
+                    gap:10px;
+                    border:1px solid green;
+                    width:100%;
+                    height:30%;
+                    background-color: #15171C;
+                    
+                }
+                #fourth>img{
+                    height:95%;
+                    width:20%;
+                }
+                #fourth>img:hover{
+                    height:96%;
+                    width:21%;
+                    cursor: pointer;
+                }
+                #prefourth{
+                    border:1px solid blue;
+                    text-align: center;
+                    background-color: #2f3743;
+                    color: white;
+             
+                    margin-top:-120px;
+                }
+                #prefifth{
+                    border:1px solid red;
+                    text-align: center;
+                    background-color: #2f3743;
+                    color: white;
+                    margin-top:20px;
+                }
+                #fifth{
+                    display:flex;
+                }
+                #fifth div{
+                    border:1px solid teal;
+                   margin:auto;
+                   text-align: center;
+                   border-radius: 10px;
+                   background-color: rgb(114, 107, 107);
+                }
+                #fifth div>img{
+            height: 50%;
+            border-radius: 10px 10px 0px 0px;
+                    
+                }
+                #fifth p{
+                    color:#272f3a;
+                }
+                #fifth h3{
+                    color:#2f3743;
+                }
+                #presixth{
+                    margin: auto;
+                    text-align: center;
+                    color:grey;
+                    background-color: #15171C;
+                }
+                #sixth{
+                    margin: auto;
+                    border:1px solid red;
+                    background-color: #15171C;
+                    
+                }
+                table{
+                  
+                    margin: auto;
+                    border-collapse: collapse;
+                    background-color: #15171C;
+                    color: grey;
+                   
+                    
+                }
+              table th{
+                    
+                    width:180px;
+                 
+                    
+                }
+                td{
+                    border:1px solid grey;
+                  border-left: 0px;
+                  border-top: 0px;
+                  margin: auto;
+                  text-align: center;
+                    }
+          table button{
+            width:100%;
+            height: 50px;;
+            background-color:white;
+            color:palevioletred;
+            font-size: 25px;
+            border-radius: 10px;;
+          }
+           .td{
+            border-right: 0px;
+           }
+           tbody>tr:last-child td{
+            border-bottom: 0px;
+           }
 
         /* ------------------------------------------------------------------------- */
     </style>
@@ -190,26 +315,131 @@
 
 <body>
     <div id="navbar"></div>
-    <div id="first" >
+    <div id="first">
         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1600,ar_1.67,q_auto:eco,dpr_2,f_auto,fl_progressive/image/vm/488bf95c-54e5-498c-bd4b-d6db6fe1d1d2.png"
-            alt="first_image" >
+            alt="first_image">
     </div>
     <div id="second">
     </div>
-    <div id="third_mother" >
-        <div id="third" >
+    <div id="third_mother">
+        <div id="third">
             <div id="third_1">
                 <h1>FLASH SALE | ONLY TODAY</h1>
                 <h4>Free ₹2000 Puma voucher + Extra 3 months extension | On CULT pass ELITE</h4>
-                
-            </div>
-                <div class="timer">
-                   <h2>-------- Ends in--------</h2>
-                    <h1 id="demo"></h1>
-                </div>
-                </div>
-    </div>
 
+            </div>
+            <div class="timer">
+                <h2>-------- Ends in--------</h2>
+                <h1 id="demo"></h1>
+            </div>
+        </div>
+    </div>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <h1>Centers Near Me</h1><iframe  width="500" height="500" id="gmap_canvas"
+            frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            
+        </div>
+    </div>
+    <div id="prefourth">   <h2>AT CENTER</h2>
+        <h1>Trainer-led group classes</h1></div>
+ 
+    <div id="fourth">
+      
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,ar_0.75,q_auto:eco,dpr_2,f_auto,fl_progressive//image/vm/8009b1d0-4f5e-49e1-bc94-c41da6a5bcc1.png" alt="">
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,ar_0.75,q_auto:eco,dpr_2,f_auto,fl_progressive//image/vm/7bf136db-7217-4733-af9f-1bb8a4155a83.png" alt="">
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,ar_0.75,q_auto:eco,dpr_2,f_auto,fl_progressive//image/vm/7edc94fb-e895-4065-8e56-dabffdd4e4b0.png" alt="">
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,ar_0.75,q_auto:eco,dpr_2,f_auto,fl_progressive//image/vm/09e63111-d407-4d09-89e5-96d978edf2b1.png" alt="">
+    </div>
+    <div id="prefifth">   <h2>AT HOME</h2>
+        <h1>Live group workouts with calorie tracking</h1></div>
+ 
+    <div id="fifth">
+      
+        <div>
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,ar_1.77,q_auto:eco,dpr_1,f_auto,fl_progressive//image/diy/8fbbed5b-37b2-458a-8cd0-775ad5ef1f59">
+                <p>Rahul S</p>
+                <h2>Cardio HIIT</h2>
+                <h3>CARDIO.BEGINNER.30min</h3>
+            </div>
+        <div>
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,ar_1.77,q_auto:eco,dpr_1,f_auto,fl_progressive//image/diy/d3783553-6808-4968-ae60-6882667380e1" >
+            <p>Nandini S</p>
+            <h2>Dance Fitness Xpress</h2>
+            <h3>DANCE.BEGINNER.30min</h3>
+        </div>
+        <div>
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,ar_1.77,q_auto:eco,dpr_1,f_auto,fl_progressive//image/diy/bd02c2f4-bc74-4868-bd93-0590e35b8c14">
+            <p>Carolyn S</p>
+            <h2>Hatha Yoga for Beginners</h2>
+            <h3>YOGA.BEGINNER.35min</h3>
+        </div>
+    </div>
+    <div id="presixth">
+        <h1>Choose your cultpass </h1>
+        <h3>3 flexible plan to suit your fitness needs</h3>
+    </div>
+    <div id="sixth">
+        <table>
+            <thead>
+                <th></th>
+                <th><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_89,ar_3.59,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"></th>
+                <th><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_65,ar_2.63,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro-partial.png"></th>
+                <th><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_71,ar_2.86,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-live-partial-4x.png"></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><h3>ELITE Gyms At Centre Group Classes</h3></td>
+                <td><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png" alt="">
+                <p>Unlimited</p>
+                </td>
+                <td><p>04 Sessions/month</p></td>
+                <td class="td"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/opaque-white-circle-cross-4.svg"></td>
+                
+                </tr>
+                <tr>
+                    <td><h3>PRO Gyms</h3></td>
+                    <td><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png" alt="">
+                        <p>Unlimited</p></td>
+                        <td><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png" alt="">
+                            <p>Unlimited</p></td>
+                            <td class="td"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/opaque-white-circle-cross-4.svg"></td>
+                </tr>
+                <tr>
+                    <td><h3>Smart workout plan</h3></td>
+                    <td><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png" alt="">
+                        <p>Unlimited</p></td>
+                        <td><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png" alt="">
+                            <p>Unlimited</p></td>
+                            <td class="td"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/opaque-white-circle-cross-4.svg"></td>
+                </tr>
+                <tr>
+                    <td><h3>At home workouts</h3></td>
+                    <td><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png" alt="">
+                        <p>Unlimited</p></td>
+                        <td><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png" alt="">
+                            <p>Unlimited</p></td>
+                            <td class="td"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png" alt="">
+                                <p>Unlimited</p></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Starting at ₹1178/month
+                        <button>Buy Now</button>
+                    </td>
+                    <td>Starting at ₹999/month
+                        <button>Buy Now</button>
+                    </td>
+                    <td class="td">Starting at ₹115/month
+                        <button>Buy Now</button>
+                    </td>
+                </tr>
+           
+                
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>
@@ -231,7 +461,7 @@
         </div>`
     }
     let arr = [];
-    let str1=`  <div id="third" >
+    let str1 = `  <div id="third" >
             <div id="third_1">
                 <h1>FLASH SALE | ONLY TODAY</h1>
                 <h4>Free ₹2000 Puma voucher + Extra 3 months extension | On CULT pass ELITE</h4>
@@ -264,31 +494,52 @@
                     <h1 id="demo"></h1>
                 </div>
                 </div>`;
-        arr.push(str2,str3,str1);
-        let third_mother=document.querySelector("#third_mother");
-        
-        let i=0;
-       
-        function slideshow(){
-            third_mother.innerHTML=null;
-           if(i<3){
-            third_mother.innerHTML=arr[i];
-            console.log(i);
-           }
-           if(i==2){
-            i=-1;
-           }
-           i++;
-        }
-     
-        
+    arr.push(str2, str3, str1);
+    let third_mother = document.querySelector("#third_mother");
 
-        let z=setInterval(slideshow,5000);
-        // clearInterval(z);
-       
+    let i = 0;
+
+    function slideshow() {
+        third_mother.innerHTML = null;
+        if (i < 3) {
+            third_mother.innerHTML = arr[i];
+           
+        }
+        if (i == 2) {
+            i = -1;
+        }
+        i++;
+    }
+
+
+
+    let z = setInterval(slideshow, 5000);
+    // clearInterval(z);
+
     setTimeout(addSecondComponents, 5000);
     import { navbar } from "../componants/navbar.js"
     document.querySelector("#navbar").innerHTML = navbar();
+    function getLocation(){
+        navigator.geolocation.getCurrentPosition(success);
+        function success(pos) {
+    const crd = pos.coords;
+    //
+
+   
+    append(crd.latitude,crd.longitude);
+   
+  }
+}
+getLocation();
+function append(lat,long){
+    let map=`https://maps.google.com/maps?q=${lat},${long}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+
+    document.querySelector("#gmap_canvas").src=map;
+
+
+}
+
+
 
 </script>
 <script src="../componants/timer.js">
