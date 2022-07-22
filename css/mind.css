@@ -1,0 +1,458 @@
+  *{
+  font-family:  BrandonTextWeb-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  }
+  #navbar1 {
+  margin: 0%;
+  box-sizing: border-box;
+  }
+  #navbar1{
+  display: flex;
+  height: 60px;
+  background-color:#15171C;
+  justify-content: space-between;
+  padding: 13px;
+  position: sticky;
+  top:0%;
+  }
+  #pages{
+  display: flex;
+  width:30%;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+  #navbar1 img{
+  height: 100%;
+  }
+  #pages a{
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color:rgb(199, 193, 193)
+  }
+  #functions{
+  display: flex;
+  width: 22%;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+  #functions>button{
+  height: 100%;
+  border: 1px solid white;
+  background-color: #15171C;
+  color: white;
+  border-radius: 5%;
+  }
+  #navbar1 a:hover{
+  color: white;
+  font-size: 16px;
+  }
+
+  /* <-----------------NavBarStyle---------------------> */
+  #navbar {
+  width: 100%;
+  height: 64px;
+  background-color: #444a5a;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  }
+  #innerNavbar {
+  width: 97%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }  
+  #navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 450px;
+  }
+  #navbar ul li {
+  height: 100%;
+  list-style: none;
+  }
+  #eatSubpages{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  }
+  #eatSubpages ul li a{
+  margin-right: 40px;
+  font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  line-height: 1.25;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+  color: white;
+  }
+  /* ====================cards css ============ */
+
+  #cardsContainer{
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(2,49%);
+  gap: 15px;
+  }
+  .dis1{
+  display: grid;
+  grid-template-columns: repeat(2,45%);
+  gap: 20px;
+  padding: 15px;
+  max-height: 260px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .dis2{
+  display: grid;
+  grid-template-columns: repeat(2,45%);
+  gap: 20px;
+  padding: 15px;
+  max-height: 260px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  }
+  .card1{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  }
+  .card2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  }
+  .imgS{
+  width: 98%;
+  height: 80%;
+  }
+
+  #maincontainer {
+  width: 95%;
+  margin: auto;
+  padding: 5px;
+  }
+  .dis2:hover{
+  box-shadow:
+  rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  rgba(0, 0, 0, 0.12) 0px -12px 30px,
+  rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  rgba(0, 0, 0, 0.17) 0px 12px 13px,
+  rgba(0, 0, 0, 0.09) 0px -3px 5px;     
+  }
+  .dis1:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  rgba(0, 0, 0, 0.12) 0px -12px 30px,
+  rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  rgba(0, 0, 0, 0.17) 0px 12px 13px,
+  rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+  }
+  #text{
+  line-height: 10px;
+  }
+  #text>p{
+  font-size: 13px;
+  color: #555;
+  }
+  /* <--------------CartPage PopUp Style-------------------> */
+  #divFlexN{
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  margin-bottom: 30px;
+  margin-top: -30px;
+  }
+  #disDivCon{
+  display: flex;
+  }
+  #divspi{
+  /* width: 100%;  */
+  background-color: white;
+  }
+  #quant{
+  border: 2px solid rgb(255,78,116);
+  width: 90px;
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 30px;
+  margin-left: 20px;
+  font-size: 25px;
+  display: flex;
+  }
+  #imgcART{
+  width: 120px;
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+  #countshow{
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+  }
+  hr{
+  height: 1px;
+  /* background-color: lightgray; */
+  width: 85%;
+  }
+  #buttonCart{
+  width:90%;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, rgb(255, 50, 120), rgb(255, 89, 114));
+  box-shadow: rgb(247 123 155 / 71%) 0px 3px 15px 0px;
+  padding: 15px 10px;
+  position:absolute;
+  right:0;
+  bottom: 10px;
+  margin-top: -75px;
+  margin-right: 28px;
+  color: whitesmoke;
+  font-size: 16px;
+  }
+  #scrollN{
+  max-height: 460px;
+  width: 340px;;
+  overflow: scroll;
+  margin-top: -10px;
+  position:relative;
+  }
+
+  #chiDiv{
+  display: none;
+  top:10%;
+  right:0;
+  z-index: 99000;
+  width: 320px;
+  position: fixed;
+  box-shadow: rgb(0 0 0 / 22%) 0px 2px 4px 2px;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  overflow: hidden;
+  }
+  #deleteProd{
+  position: absolute;
+  width:12px;
+  height: 12px;
+  right: 15px;
+  cursor: pointer;
+  }
+  #pprod{
+  color: #9b9b9b;
+  }
+  #psize{
+  color: #9b9b9b;
+  }
+  #pN{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  /* font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; */
+  margin-bottom: 30px;
+  margin-top:0px;
+  margin-left:10px;
+  }
+
+  /* <------------SmallScreen NAvbar----------------> */
+  #hamburgericon{
+  padding:10px;
+  }
+  #hamburgericon>div {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(0, 0, 0);
+  margin: 6px 0;
+  z-index: 1;
+  }
+  #smallScreenNav{
+  display: none;
+  position:sticky;
+  transition: all 1s ease 1s;
+  }
+  #dropdownNav{
+  display: none;
+  display:flex;
+  flex-direction: column;
+  width: 50vw;
+  height:100vh;
+  position:absolute;
+  top:0px;
+  left: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: rgb(34, 34, 34);
+  padding-top: 30px;
+  max-width: 350px;
+  transition: all 1s ease 1s;
+  }
+  #cross>.fa-times{
+  color:white;
+  font-size: 38px;
+  position: absolute;
+  top:20px;
+  right: 30px;
+
+  }
+  #cultlogodis>img{
+  width: 100px;
+  margin-bottom: 30px;
+  padding-left: 3px;
+  }
+  #navPages{
+  display:flex;
+  flex-direction:column;
+  color: white;
+
+  } 
+  #navPages>div{
+  width:100%;
+  /* text-align:center; */
+  padding: 20px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  padding-left: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: BrandonTextWeb-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  color: white;
+  max-width: 350px;
+  /* border-top: 1px solid white; */
+  border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  #navPages>div>a{
+  text-decoration: none;
+  color: white;
+  }
+  #downLogin{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  color: white;
+
+  }
+  #downLogin>div{
+  width:100%;
+  text-transform: none;
+  /* padding: 20px 20px 20px 0px; */
+  font-size: 15px;
+  padding: 15px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  padding-left: 40px;
+  /* font-weight: bold; */
+  font-family: BrandonTextWeb-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  color: white;
+  max-width: 350px;
+  /* /* max-width: 350px; */
+  }
+  /* <-----------MediaQueriesNavbar------------> */
+  @media screen and (max-width:720px){
+  #innerNavbar{
+  width: 50%;
+  justify-content:flex-end;
+  align-items:center;
+  margin-left: auto;
+  }
+  /* #innerNavbar> #logo{
+  /* justify-content:center; */
+  /* } */ 
+  #location{
+  /* width: 30vw; */
+  margin-right:0px;
+  margin-left: 100%;
+  }
+  #spet,#order,#profile,#logged-out,#blue-dot,#cartNik{
+  display:none;
+  }
+  #footerd4 img{
+  width:5%;
+  }
+  #eatheader{
+  width:80%;
+  }
+  #smallScreenNav{
+  display: block;
+  }
+  #dropdownNav{
+  display:none;
+  }
+
+  }
+  #Nikfooter {
+  background-color: black;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  }
+
+  #footerd1 {
+  width: 37%;
+  height: 100%;
+  }
+
+  #footerd1I {
+  width: 30%;
+  margin-left: 20%;
+  margin-top: 10%;
+  }
+
+  #footerd1P {
+  margin-left: 17%;
+  margin-top: 5%;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  }
+
+  #footerd2 {
+  width: 20%;
+  height: 100%;
+  }
+
+  .nikContact {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.94;
+  letter-spacing: normal;
+  list-style: none;
+  margin-left: 20%;
+  }
+
+  #footerd3 {
+  width: 20%;
+  height: 100%;
+  }
+
+  #footerd4 {
+  /* width: 20%; */
+  height: 100%;
+  }
+
+  .nikContact1 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.94;
+  letter-spacing: normal;
+  list-style: none;
+  margin-left: 15%;
+  margin-top: 10%;
+  }
