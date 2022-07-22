@@ -1,0 +1,19 @@
+#paragraph{
+    padding: 5% 15%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    background-color: #171A26;
+    margin-bottom:0px;
+   }
+   #paragraph p{
+    line-height: 18px;
+    word-spacing: 3px;
+    color: #585A63;
+    font-size: 14px;
+   }
+   #paragraph h5{
+    word-spacing: 5px;
+    font-size: 16px;
+    color: #92A1A6;
+   }

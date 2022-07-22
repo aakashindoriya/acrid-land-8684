@@ -20,6 +20,13 @@ let display=(data,place)=>{
         p4.innerText=`₹ ${el.offer}`
         div2.append(p3,p4)
         div.append(pic,div1,div2)
+        div.addEventListener("click",()=>{
+            localStorage.setItem("care-product",JSON.stringify(el))
+            window.location.href="../html/care-subpage.html"
+        })
+       div.addEventListener("mousemove",()=>{
+        div.style.cursor="pointer"
+       })
         document.getElementById(place).append(div)
     })
     }

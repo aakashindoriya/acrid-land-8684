@@ -1,12 +1,12 @@
 function navbar(){
     return ` <div id="logo">
-    <a href=""> <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png" alt=""></a>
+    <a href="../index.html"> <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png" alt=""></a>
  </div>
  <div id="pages">
-     <a href=""><h3>FITNESS</h3></a>
-     <a href=""><h3>CARE</h3></a>
-     <a href=""><h3>MIND</h3></a>
-     <a href=""><h3>STORE</h3></a>
+     <a href="../html/fitness.html"><h3>FITNESS</h3></a>
+     <a href="../html/carepage.html"><h3>CARE</h3></a>
+     <a href="../html/mind.html"><h3>MIND</h3></a>
+     <a href="../html/storepage.html"><h3>STORE</h3></a>
  </div>
  <div id="functions">
     
