@@ -1,35 +1,21 @@
 
-// id-> Slide_Bar
 
-const img = document.querySelectorAll("img");
+let slideIndex = 0;
+showSlides();
 
-// const btn = document.getElementsByClassName("btn_1");
-// let i = 0;
-// let count = 1;
-// setInterval( () => {
-//     img.forEach((img, i) => {
-//         img.style.display = 'none';
-        
-//     });
-//     if(i == img.length){
-//         i=0;
-//     }
-//     (btn+count).checked = true
-//         count++;
-//     if(count > 2){
-//         count = 1;
-//     }
-//     img[i].style.display = 'block';
-//     i++;
-// }, 2000);
-
-// btn_1
-let count = 1;
-setInterval(() => {
-    document.getElementsByClassName("btn_1"+count).checked = true;
-    count++;
-    if(count > 2){
-        count = 1;
-    }
-}, 2000);
-
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
