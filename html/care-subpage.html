@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+   <link rel="stylesheet" href="../css/footer.css">
+   <link rel="stylesheet" href="../css/paragraph.css">
+    <link rel="stylesheet" href="../css/care-subpage.css">
+
+    
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="container">
+        <div >
+            <img src="" alt="" id="pic">
+        </div>
+        <div id="box">
+            <p>Home > Care > Diagnostic Tests >Thyroid Screening (T3,T4,TSH)</p>
+            <div id="description_box">
+                <div id="title"><h1>Thyroid Screening (T3,T4,TSH)</h1><p id="old">1234</p><p id="new">1000</p></div>
+                <div id="des">Thyroid secretes hormones which influence the metabolic rate, protein synthesis and development of your body. This test checks the amount of the following critical hormones: T3, T4, TSH.</div>
+                <div id="bottom">
+                    <div id="first">
+                        <div id="one">
+                            <img src="https://static.cure.fit/assets/images/time-grey.svg" alt="">
+                            <p>3 Tests</p>
+                        </div>
+                        <div id="two">
+                            <img src="https://static.cure.fit/assets/images/tests.svg" alt="">
+                            <p>Report Ready in 36 Hrs</p>
+                        </div>
+                    </div>
+                    <div id="second">
+                        <button onclick="addToCart()">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="para">
+
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+import {navbar,getLocation} from "../componants/navbar.js"
+import {paragraph} from "../componants/pamplets_care.js"
+import {footer} from "../componants/footer.js"
+document.getElementById("navbar").innerHTML=navbar();
+document.getElementById("para").innerHTML=paragraph();
+document.getElementById("footer").innerHTML=footer();
+
+</script>
+<script>
+    let data=JSON.parse(localStorage.getItem("care-product"))
+    let photo=document.getElementById("pic")
+    photo.src=data.image
+    document.getElementById("old").innerText=`₹ ${data.price}`
+    document.getElementById("new").innerText=`₹ ${data.offer}`
+    function addToCart(){
+        let arr=JSON.parse(localStorage.getItem("cart_Item"))||[]
+        arr.push(data)
+        localStorage.setItem("cart_Item",JSON.stringify(arr))
+    }
+
+</script>
