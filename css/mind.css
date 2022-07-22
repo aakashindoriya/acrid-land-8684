@@ -53,7 +53,7 @@
   #navbar {
   width: 100%;
   height: 64px;
-  background-color: #fff;
+  background-color: #444a5a;
   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
   display: flex;
   position: sticky;
@@ -67,9 +67,6 @@
   align-items: center;
   justify-content: space-between;
   }  
-  .logo:hover {
-  color: rgb(163, 156, 156);
-  }
   #navbar ul {
   display: flex;
   justify-content: space-evenly;
@@ -88,13 +85,12 @@
   align-items: center;
   }
   #eatSubpages ul li a{
-  margin-left: 60px;
   margin-right: 40px;
   font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   line-height: 1.25;
   letter-spacing: 0.1px;
   text-decoration: none;
-  color: rgb(228, 116, 116);
+  color: white;
   }
   /* ====================cards css ============ */
 
