@@ -1,3 +1,6 @@
+*{
+    font-family:  BrandonTextWeb-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    }
 body{
     background-color: #15171C;
 }
@@ -101,8 +104,7 @@ body{
 
 
 #third_1 {
-
-    width: 60%;
+width: 60%;
 
 }
 
