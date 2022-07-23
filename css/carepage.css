@@ -20,7 +20,7 @@
    }
    #cards{
      margin-top: 30px;
-     width: 1250px;
+     width: 100%;
      display: grid;
      grid-template-columns: repeat(5,1fr);
      grid-template-rows: auto;
@@ -128,7 +128,7 @@
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
     background-color: #171A26;
-    margin-bottom:0px;
+    margin-bottom:-38px;
    }
    #paragraph p{
     line-height: 18px;
