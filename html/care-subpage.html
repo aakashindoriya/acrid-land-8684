@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
+    <link rel="stylesheet" href="../css/careCart.css">
     <link rel="stylesheet" href="../css/navbar.css">
    <link rel="stylesheet" href="../css/footer.css">
    <link rel="stylesheet" href="../css/paragraph.css">
@@ -13,6 +14,7 @@
 </head>
 <body>
     <div id="navbar"></div>
+    <div id="Cart"></div>
     <div id="container">
         <div >
             <img src="" alt="" id="pic">
@@ -20,7 +22,7 @@
         <div id="box">
             <p>Home > Care > Diagnostic Tests >Thyroid Screening (T3,T4,TSH)</p>
             <div id="description_box">
-                <div id="title"><h1>Thyroid Screening (T3,T4,TSH)</h1><p id="old">1234</p><p id="new">1000</p></div>
+                <div id="title"><h1 id="description">Thyroid Screening (T3,T4,TSH)</h1><p id="old">1234</p><p id="new">1000</p></div>
                 <div id="des">Thyroid secretes hormones which influence the metabolic rate, protein synthesis and development of your body. This test checks the amount of the following critical hormones: T3, T4, TSH.</div>
                 <div id="bottom">
                     <div id="first">
@@ -50,10 +52,86 @@
 import {navbar,getLocation} from "../componants/navbar.js"
 import {paragraph} from "../componants/pamplets_care.js"
 import {footer} from "../componants/footer.js"
+import {cart} from "../componants/addTocart.js"
 document.getElementById("navbar").innerHTML=navbar();
 document.getElementById("para").innerHTML=paragraph();
 document.getElementById("footer").innerHTML=footer();
 window.onload=getLocation()
+document.getElementById("cartPage").addEventListener("click",()=>{
+    let total=0;
+    var div = document.getElementById("Cart");
+    div.style.visibility = "visible";
+    let content = `<div class="cart-box">
+    <button id="closedCart">
+                        ╳
+                    </button>
+        <div class="whole-cart-window hide">
+          <h2>Your cart</h2>
+          <div class="cart-wrapper" id="cartAdd">
+           
+            
+            
+          </div>
+
+         
+          <div class="checkout"><button id="kcheckoutBtn">Checkout</button></div>
+          
+        </div>
+      </div>`
+    div.innerHTML = content;
+
+    var wholeCartWindow = document.querySelector(".whole-cart-window");
+    if (wholeCartWindow.classList.contains('hide'))
+      wholeCartWindow.classList.remove('hide')
+
+    const closedCart = document.querySelector('#closedCart');
+    closedCart.addEventListener('click', () => {
+      console.log("close this");
+      wholeCartWindow.classList.add('hide')
+      div.style.visibility = "hidden";
+      document.getElementById("Cart").innerHTML=""
+
+    })
+
+    let cart_page_details = JSON.parse(localStorage.getItem("cart_Item")) || []
+    console.log(cart_page_details);
+    let cartAdd = document.getElementById("cartAdd")
+
+    cart_page_details.forEach(function (el) {
+
+      let div = document.createElement("div")
+      div.setAttribute("class", "cart-item")
+
+      let image = document.createElement("img")
+      image.src = el.image
+      image.setAttribute("id", "cart-image")
+
+      let div1 = document.createElement("div")
+
+      let price = document.createElement("h3")
+      price.innerText = "Price : " + el.price
+      price.setAttribute("id", "cart-price")
+      total+=+el.offer
+
+      let title = document.createElement("h1")
+      title.innerText = el.discription
+      title.setAttribute("id", "cart-title")
+
+      div1.append(title, price)
+      div.append(image, div1)
+      cartAdd.append(div)
+    })
+
+console.log(total)
+
+    kcheckoutBtn.addEventListener("click", function () {
+        localStorage.setItem("total_payment",total)
+      window.location.href = "html/payments.html"
+    })
+
+  
+})
+
 
 </script>
 <script>
@@ -62,6 +140,7 @@ window.onload=getLocation()
     photo.src=data.image
     document.getElementById("old").innerText=`₹ ${data.price}`
     document.getElementById("new").innerText=`₹ ${data.offer}`
+    document.getElementById("description").innerText=`${data.discription}`
     function addToCart(){
         let arr=JSON.parse(localStorage.getItem("cart_Item"))||[]
         arr.push(data)

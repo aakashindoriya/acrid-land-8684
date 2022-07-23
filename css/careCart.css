@@ -1,0 +1,129 @@
+
+#mainCartContantPagr {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 400px;
+    height: 100vh;
+    z-index: 2000;
+    transition: 0.5s ease;
+    box-shadow: rgb(0, 0, 0) 0px 30px 90px;
+  }
+  
+  .DisplayTheactivnessFrocart {
+    right: 0 !important;
+  }
+  
+  #CloseCartBtn {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 30px;
+    font-size: 50px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  #closeTheimgTag {
+    width: 30px;
+    height: 30px;
+    color: black;
+  }
+  
+  #mainCartContantPagr {
+  
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 400px;
+    height: 100vh;
+    z-index: 2000;
+    transition: 0.5s ease;
+    box-shadow: rgb(0, 0, 0) 0px 30px 90px;
+  }
+  
+  .DisplayTheactivnessFrocart {
+    right: 0 !important;
+  }
+  
+  #CloseCartBtn {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 30px;
+    font-size: 50px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  #closeTheimgTag {
+    width: 30px;
+    height: 30px;
+    color: black;
+  }
+  
+  .cart-box {
+    width: 26% !important;
+    position: absolute;
+    left: 72%;
+    top: 25%;
+  
+    padding: 10px 20px;
+    background-color: #fff;
+  }
+  
+  .cart-wrapper {
+    overflow-y: auto;
+    max-height: 350px;
+    width: 24vw;
+  
+  }
+  
+  .subtotal {
+    text-align: right;
+    padding: 5%;
+  }
+  
+  .checkout,
+  .view-cart {
+    width: 95%;
+    text-align: center;
+    cursor: pointer;
+    background-color: brown;
+    font-size: large;
+    color: #fff;
+    margin: 10px auto;
+    padding: 10px 15px;
+  
+  }
+  
+  .cart-item {
+    display: grid;
+    grid-template-columns: 3fr 6fr 1fr;
+    padding: 5% 2%;
+    border-bottom: solid 1px lightgray;
+  
+  }
+  
+  #cart-image {
+    width: 100px;
+  }
+  
+  #cart-price {
+    display: block;
+    text-align: right;
+    margin-top: 35%;
+  
+  }
+  
+  .quantity {
+    display: block;
+    margin-top: 5%;
+  
+  }
+  
+  .cancel {
+    text-align: right;
+  }

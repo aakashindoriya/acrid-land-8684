@@ -15,6 +15,7 @@ setInterval(()=>{
 fetch("http://127.0.0.1:3000/api/careData").then((res)=>{
   return res.json()
 }).then((res)=>{
+  console.log(res)
   display(res,"cards")
 })
 
