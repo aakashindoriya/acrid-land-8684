@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="//db.onlinewebfonts.com/c/53cdcb7507a23013519313393248b9bd?family=BrandonTextWeb-Bold" rel="stylesheet"
+    type="text/css" />   
+    <link rel="stylesheet" href="../css/mind_summary.css">
+    <link href="//db.onlinewebfonts.com/c/47b83f8dbd3bf93e0df5674b32c6a7e4?family=BrandonTextWeb-Regular"
+    rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" type="image/x-icon">
+    <title>Mind Summary</title>
+    </head>
+    <body>
+    <div id="navbar1"></div>
+    <!-----Navbar----------->   
+    <div id="navbar">
+    <div id="innerNavbar">
+    <div id="spet">
+    </div>
+    </div>
+    <div id="eatSubpages">
+    <div>
+    <ul>
+    <li id="order"><a href="mind.html">Therapy</a></li>
+    <li><a href="mindfull.html">Mindfulness</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+
+    <div id="summary">
+        <div id="part1">
+            <h1>Order Summary</h1>
+            <div id="mid">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_112,ar_112:86,c_fit/dpr_2/image/carefit/bundle/19224_Confidence-1Session_30bc07c5-78b0-484b-9758-5f7cd2bf8866" alt="">
+                <h2>Rise to Confidence - 1 Session</h2>
+            </div>
+        </div>
+        <div id="part2">
+            <div>
+                <p>Total</p>
+                <p>Rs.1300.00</p>
+            </div>
+            <div>
+                <p>Price Discount</p>
+                <p>Rs.601.00</p>
+            </div>
+            <div>
+                <p>CGST + SGST@)%</p>
+                <p>Rs.0.00</p>
+            </div>
+            <div id="total">
+                <p>Total Payable</p>
+                <p>Rs.699.00</p>
+            </div>
+            <button><a href="./payments.html">Pay Rs.699</a></button>
+        </div>
+    </div>
+
+    <script type="module">
+        import {navbar,getLocation} from "../componants/navbar.js"
+        document.getElementById("navbar1").innerHTML= navbar()
+        window.onload = getLocation();
+        </script>
