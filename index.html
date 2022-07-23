@@ -158,6 +158,30 @@
     </div>
 
 
+
+
+    <!-- <div id="CartSection">
+      <div id="">
+        <div class="CartPage">
+       
+        </div>
+        <div id="CartPage">
+          <p>
+            <button id="logintext" style="text-decoration: none">Cart</button>
+          </p>
+        </div>
+      </div>
+      <div id="mainCartContantPagr">
+        <div id="CloseCartBtn">
+          <img
+            id="closeTheimgTag"
+            src="https://atlona.com/wp-content/uploads/2016/08/close-button.png"
+            alt="close"
+          />
+        </div>
+      </div>
+    </div> -->
+
 </body>
 
 </html>
@@ -167,9 +191,10 @@
   import { navbar, getLocation } from "./componants/navbar.js"
   document.getElementById("navbar").innerHTML = navbar()
 
-  const menuToggle = document.querySelector('#toggle');
-  // const showcase = document.querySelector('#kfirstVideo');
+  // cart 
 
+
+  const menuToggle = document.querySelector('#toggle');
 
   menuToggle.addEventListener('click', () => {
 
@@ -182,20 +207,19 @@
                     </button>
         <div class="whole-cart-window hide">
           <h2>Your cart</h2>
-          <div class="cart-wrapper">
+          <div class="cart-wrapper" id="cartAdd">
            
             
             
           </div>
 
-          <div class="subtotal">Subtotal: $0.00</div>
-          <div class="checkout">Checkout</div>
-          <div class="view-cart">View Cart</div>
+         
+          <div class="checkout"><button id="kcheckoutBtn">Checkout</button></div>
+          
         </div>
       </div>`
     div.innerHTML = content;
-    // menuToggle.classList.toggle('active');
-    // showcase.classList.toggle('active');
+
     var wholeCartWindow = document.querySelector(".whole-cart-window");
     if (wholeCartWindow.classList.contains('hide'))
       wholeCartWindow.classList.remove('hide')
@@ -208,10 +232,45 @@
 
     })
 
+    let cart_page_details = JSON.parse(localStorage.getItem("cart_Item")) || []
+    console.log(cart_page_details);
+    let cartAdd = document.getElementById("cartAdd")
+
+    cart_page_details.forEach(function (el) {
+
+      let div = document.createElement("div")
+      div.setAttribute("class", "cart-item")
+
+      let image = document.createElement("img")
+      image.src = el.image
+      image.setAttribute("id", "cart-image")
+
+      let div1 = document.createElement("div")
+
+      let price = document.createElement("h3")
+      price.innerText = "Price : " + el.price
+      price.setAttribute("id", "cart-price")
+
+      let title = document.createElement("h1")
+      title.innerText = el.discription
+      title.setAttribute("id", "cart-title")
+
+      div1.append(title, price)
+      div.append(image, div1)
+      cartAdd.append(div)
+    })
+
+
+
+    kcheckoutBtn.addEventListener("click", function () {
+      window.location.href = "html/payments.html"
+    })
 
   })
 
 </script>
+
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init({ offset: 400, duration: 2000, });
