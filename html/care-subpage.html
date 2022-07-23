@@ -52,11 +52,13 @@
 import {navbar,getLocation} from "../componants/navbar.js"
 import {paragraph} from "../componants/pamplets_care.js"
 import {footer} from "../componants/footer.js"
-import {cart} from "../componants/addTocart.js"
+
 document.getElementById("navbar").innerHTML=navbar();
 document.getElementById("para").innerHTML=paragraph();
 document.getElementById("footer").innerHTML=footer();
 window.onload=getLocation()
+// --------------------------------------------------------------------------------cart
+import {cart} from "../componants/addTocart.js"
 document.getElementById("cartPage").addEventListener("click",()=>{
     let total=0;
     var div = document.getElementById("Cart");
