@@ -6,311 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
-    <style>
-        #first {
-            height: 60%;
-            width: 100%;
-            margin: auto;
-            border: 3px solid blue;
-            justify-content: center;
-
-
-        }
-
-        #first>img {
-            height: 100%;
-            width: 100%;
-        }
-
-        #second {
-            display: flex;
-            width: 50%;
-            margin: auto;
-            height: 300px;
-            position: absolute;
-            top: 47%;
-            left: 23%;
-
-
-            justify-content: space-between;
-        }
-
-        #second>div:nth-child(1) {
-            border: 0.1px solid #b6b2af;
-            text-align: center;
-            background-color: hsla(41, 100%, 10%, 0.7);
-            width: 40%;
-            height: 150px;
-            margin-top: 100px;
-
-        }
-
-        #second>div:nth-child(3) {
-            border: 0.1px solid #b6b2af;
-            text-align: center;
-            background-color: hsla(41, 100%, 10%, 0.7);
-            width: 40%;
-            height: 150px;
-            margin-top: 100px;
-
-
-        }
-
-        #second_2 {
-            height: 20%;
-            color: #f68a82;
-            background-color: azure;
-            width: 20%;
-            text-align: center;
-            margin-top: 20px;
-            justify-content: center;
-
-
-
-        }
-
-        #second_2:hover {
-            color: black;
-            ;
-        }
-
-        #second div>p {
-            color: #b6b2af;
-        }
-
-        #second_1>h1 {
-            color: #fed373;
-        }
-
-        #second_3>h1 {
-            background: -webkit-linear-gradient(#9f86d9, #db6aae);
-            background-clip: border-box;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        #second div {
-            border-radius: 10px;
-        }
-
-        #third {
-            border: 1px solid green;
-            height: 150px;
-            width: 70%;
-            margin: auto;
-            border-radius: 10px;
-            display: flex;
-            color: #d9d5d2;
-            justify-content: space-evenly;
-            background-color: #2f3743;
-        }
-
-
-        #third_1 {
-
-            width: 60%;
-
-        }
-
-        .timer {
-
-            width: 40%;
-            padding-left: 120px;
-
-        }
-
-        #navbar {
-            display: flex;
-            height: 60px;
-            background-color: #15171C;
-            justify-content: space-between;
-            padding: 13px;
-            position: sticky;
-            top: 0;
-            margin: 0%;
-            box-sizing: border-box;
-            z-index: 100;
-
-
-
-        }
-
-        #pages {
-            display: flex;
-            width: 30%;
-            justify-content: space-between;
-            align-items: center;
-
-
-        }
-
-        #navbar img {
-            height: 100%;
-        }
-
-        #pages a {
-            text-decoration: none;
-            font-size: 15px;
-            line-height: 1.42857143;
-            color: rgb(199, 193, 193)
-        }
-
-        #functions {
-            display: flex;
-            width: 22%;
-            justify-content: space-between;
-            align-items: center;
-
-        }
-
-        #functions>button {
-            height: 100%;
-            border: 1px solid white;
-            background-color: #15171C;
-            color: white;
-            border-radius: 5%;
-        }
-
-        #navbar a:hover {
-            color: white;
-            font-size: 16px;
-        }
-
-        #functions>div {
-            background-color: #33363f;
-            display: flex;
-            height: 100%;
-            width: 30%;
-            justify-content: space-between;
-
-        }
-        
-                .mapouter {
-                    position: relative;
-                    height: 500px;
-                    width: 600px;
-                   
-                }
-            
-           
-                .gmap_canvas {
-                    overflow: hidden;
-                    background: none !important;
-                    height: 300px;
-                    width: 500px;
-                    margin-top: 20px;
-                    border:3px solid grey;
-                }
-                .gmap_canvas>h1{
-                    background-color: #15171C;
-                    color:#d9d5d2;
-                }
-                #fourth{
-                    display:flex;
-                    justify-content: center;
-                    gap:10px;
-                    border:1px solid green;
-                    width:100%;
-                    height:30%;
-                    background-color: #15171C;
-                    
-                }
-                #fourth>img{
-                    height:95%;
-                    width:20%;
-                }
-                #fourth>img:hover{
-                    height:96%;
-                    width:21%;
-                    cursor: pointer;
-                }
-                #prefourth{
-                    border:1px solid blue;
-                    text-align: center;
-                    background-color: #2f3743;
-                    color: white;
-             
-                    margin-top:-120px;
-                }
-                #prefifth{
-                    border:1px solid red;
-                    text-align: center;
-                    background-color: #2f3743;
-                    color: white;
-                    margin-top:20px;
-                }
-                #fifth{
-                    display:flex;
-                }
-                #fifth div{
-                    border:1px solid teal;
-                   margin:auto;
-                   text-align: center;
-                   border-radius: 10px;
-                   background-color: rgb(114, 107, 107);
-                }
-                #fifth div>img{
-            height: 50%;
-            border-radius: 10px 10px 0px 0px;
-                    
-                }
-                #fifth p{
-                    color:#272f3a;
-                }
-                #fifth h3{
-                    color:#2f3743;
-                }
-                #presixth{
-                    margin: auto;
-                    text-align: center;
-                    color:grey;
-                    background-color: #15171C;
-                }
-                #sixth{
-                    margin: auto;
-                    border:1px solid red;
-                    background-color: #15171C;
-                    
-                }
-                table{
-                  
-                    margin: auto;
-                    border-collapse: collapse;
-                    background-color: #15171C;
-                    color: grey;
-                   
-                    
-                }
-              table th{
-                    
-                    width:180px;
-                 
-                    
-                }
-                td{
-                    border:1px solid grey;
-                  border-left: 0px;
-                  border-top: 0px;
-                  margin: auto;
-                  text-align: center;
-                    }
-          table button{
-            width:100%;
-            height: 50px;;
-            background-color:white;
-            color:palevioletred;
-            font-size: 25px;
-            border-radius: 10px;;
-          }
-           .td{
-            border-right: 0px;
-           }
-           tbody>tr:last-child td{
-            border-bottom: 0px;
-           }
-
-        /* ------------------------------------------------------------------------- */
-    </style>
+   <link rel="stylesheet" href="../css/fitness.css">
 </head>
 
 <body>
@@ -440,7 +136,83 @@
             </tbody>
         </table>
     </div>
-</body>
+    <div id="preseventh">
+        <h1>FREE TRIALS</h1>
+    </div>
+
+    <div id="seventh">
+        
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,ar_0.75,q_auto:eco,dpr_2,f_auto,fl_progressive/image/vm/22ae2a86-60e9-4de3-9180-678f40b69eb0.png"
+                alt="">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,ar_0.75,q_auto:eco,dpr_2,f_auto,fl_progressive/image/vm/2ce1e296-e894-4f65-9dc1-d6ed11c031ae.png"
+                alt="">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,ar_0.75,q_auto:eco,dpr_2,f_auto,fl_progressive/image/vm/1300abe0-318e-489c-8205-dc770cfe6e54.png"
+                alt="">
+            </div>
+            <div id="eighth">
+                <div>
+                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,ar_6.55,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png" alt="">
+                    <h1>Unlimited access to everything in your city</h1>
+                    <h3>Unlimited access to</h3>
+                    <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>At-center group classes</p></div>
+                    <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>All ELITE and PRO gyms</p></div>
+                    <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>At-home live workouts</p></div>
+                    <p>Starting at ₹1178/month</p>
+                    <button>BUY NOW</button>
+                    <div>
+                        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,ar_0.96,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="">
+                        <p>SALE ON NOW</p>
+                    </div>
+                </div>
+                <div id="subeighth">
+                   
+                </div>
+            </div>
+            <div id="ninth">
+            
+            <div id="subninth">
+               
+            </div>
+                <div>
+                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_262,ar_5.84,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro.png" alt="">
+                    <h1>Unlimited access to PRO gyms in your city</h1>
+                    <h3>Unlimited access to</h3>
+                    <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>All PRO gyms</p></div>
+                    <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>At-home live workouts</p></div>
+                    <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>$ sessions/month at ELITE gyms & group classes</p></div>
+                    <p>Starting at ₹1178/month</p>
+                    <button>BUY NOW</button>
+                    <div>
+                        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,ar_0.96,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="">
+                        <p>SALE ON NOW</p>
+                    </div>
+                </div>
+            </div>
+            <div id="tenth" >
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_218,ar_4.852,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-live.png" alt="">
+                <h1>Bring Gym Home</h1>
+                <h4>Unlimited access to</h4>
+                <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt="">
+                <p>At home workouts</p></div>
+                <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt="">
+                    <p>Celebrity workouts</p></div>
+                    <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt="">
+                        <p>Goal based workouts & meditation session</p></div>
+                        <button>BUY NOW</button>
+                        <div><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,ar_0.96,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="">
+                        <p>SALE ON NOW</p></div>
+                <!-- //` -->
+            </div>
+            <div id="eleventh">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1738:763/dpr_2/image/vm/a5077452-0ba1-469f-a9ab-3eb6429de7c2.png" alt="">
+            </div>
+            <div id="twelfth">
+                <h3>CULT COMMUNITY</h3>
+                <h2>Be a part of the cult community</h2>
+                <h3>Join the Facebook community today</h3>
+                <h4>JOIN NOW</h4>
+            </div>
+            </body>
 
 </html>
 <script type="module">
@@ -538,8 +310,62 @@ function append(lat,long){
 
 
 }
+let seventh=document.querySelectorAll("#seventh img");
+seventh.forEach((el)=>{
+    el.addEventListener("click",()=>{
+    window.location.href="explore.html";
+})
 
+})
 
+let subeighthArr=[];
+let subeighthArr_1="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/black1.png";
+let subeighthArr_2="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/black2.png";
+subeighthArr.push(subeighthArr_1,subeighthArr_2);
+let subeighthimg=document.createElement("img");
+
+let subeighth=document.querySelector("#subeighth");
+
+let j=0;
+let slide=()=>{
+    if(j<2){
+        
+        subeighthimg.src=subeighthArr[j];
+        subeighth.append(subeighthimg);
+    
+      
+    }
+    if(j==2){
+        j=-1;
+    }
+    j++;
+
+}
+setInterval(slide,3000);
+// ................................................................................................
+let subninthArr=[];
+let subninthArr_1="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/gold2.png";
+let subninthArr_2="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/gold1.png";
+subninthArr.push(subninthArr_1,subninthArr_2);
+let subninthimg=document.createElement("img");
+
+let subninth=document.querySelector("#subninth");
+
+let k=0;
+let nslide=()=>{
+    if(k<2){
+        
+        subninthimg.src=subninthArr[k];
+        subninth.append(subninthimg);
+       
+    }
+    if(k==2){
+        k=-1;
+    }
+    k++;
+
+}
+setInterval(nslide,3000);
 
 </script>
 <script src="../componants/timer.js">
