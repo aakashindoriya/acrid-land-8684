@@ -15,12 +15,12 @@ function navbar(){
  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/header/location.png" alt="">
 </div>
      <button>GET APP</button>
-     <a href="">
+     <a href="../html/login.html">
          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/header/Profile.png" alt="">
      </a>
-     <a href="">
-         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg" alt="">
-     </a>
+     
+         <img id="cartPage" src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg" alt="">
+     
  </div>`
 }
 let getLocation=()=> {
