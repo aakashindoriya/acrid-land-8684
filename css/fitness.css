@@ -1,8 +1,4 @@
-*{
-    font-family:  BrandonTextWeb-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-    font-family: 'BrandonTextWeb-Regular';
-    font-style: inherit;
-    }
+
 body{
     background-color: #15171C;
 }
@@ -80,7 +76,7 @@ body{
     display: flex;
     color: #d9d5d2;
     justify-content: space-evenly;
-    background-color: #2f3743;
+    background: -webkit-linear-gradient(#9f86d9, #2f3743); 
 }
 #third_1 {
 width: 60%;
