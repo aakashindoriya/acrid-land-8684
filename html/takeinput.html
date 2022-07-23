@@ -10,6 +10,7 @@
     <input type="text" name="" id="img" placeholder="image">
     <input type="text" id="price" placeholder="price">
     <input type="text" name="" id="offer" placeholder="offer">
+    <input type="text" name="" id="dis" placeholder="description">
     <button id="btn" onclick="takeinput()">yupp</button>
 </body>
 </html>
@@ -19,7 +20,8 @@
     let data={
         image:document.getElementById("img").value,
         price:document.getElementById("price").value,
-        offer:document.getElementById("offer").value
+        offer:document.getElementById("offer").value,
+        discription:document.getElementById("dis").value
     }
     arr.push(data)
     localStorage.setItem("tests",JSON.stringify(arr))
