@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    
+  <link rel="stylesheet" href="../css/payment.css">
+</head>
+<body>
+    <div id="navbar">
+
+    </div>
+
+    <div id="address">
+        <h2>Enter shipping details</h2>
+        <h5>Full Name</h5>
+        <input id="name" type="text" placeholder="Enter your name">
+        <h5>Mobile Number</h5>
+        <input id="mobile" type="text" placeholder="Mobile Number">
+        <h5>Pincode</h5>
+        <input id="pincode" type="text" placeholder="Enter your Pincode">
+        <h5>City</h5>
+        <input id="city" type="text" placeholder="Enter your city">
+        <h5>State</h5>
+        <input id="state"type="text" placeholder="Enter your state">
+        <h5>Street Name</h5>
+        <input id="street" type="text" placeholder="Enter your street">
+        <h5>Landmark</h5>
+        <input id="landmark"type="text" placeholder="Enter landmark">
+    </div>
+
+
+    <div id="pay">
+        <h2>Select a payment method</h2>
+        <h4>Debit card</h4>
+        <h5>Card Number</h5>
+        <input  id="card" type="text" placeholder="Enter your 16 digit card number">
+        <h5>Expiry Date</h5>
+        <div id="exp"><input id="expiryDate"  type="month"> <input  placeholder="CVV" type="number"></div>
+        <button style="font-size:15px">save card</button>
+        <button id="view" style="font-size:15px"><a id="scd" href="savedCards.html" style="color: black;">view saved cards</a></button>
+       
+        
+        <div id="other">
+            <h2>Other Options</h2>
+            <select name="" id="select">
+                <option value="Cash on delivery">
+                  
+                    Cash on delivery
+                </option>
+                <option value="upi">
+                    UPI
+                </option>
+                
+            </select>
+            <div></div>
+
+            <div id="paynow">
+                
+                <button ><a href="otp.html" id="payNow" >PROCEED TO PAY</a></button>
+            </div>
+        </div>
+ 
+
+
+
+</body>
+</html>
+<script type="module">
+        import { navbar } from "../componants/navbar.js"
+    document.querySelector("#navbar").innerHTML = navbar();
+    
+
+    
+    document.querySelector("#paynow>button").addEventListener("click",payFunction);
+    function payFunction(){
+        let name=document.querySelector("#name").value;
+    let mobile=document.querySelector("#mobile").value;
+    let pincode=document.querySelector("#pincode").value;
+    let city=document.querySelector("#city").value;
+    let state=document.querySelector("#state").value;
+    let street=document.querySelector("#street").value;
+    let landmark=document.querySelector("#landmark").value;
+
+
+    let billObj={
+       customerName:name,
+       customerMobile:mobile,
+       customerPincode:pincode,
+       customerCity:city,
+       customerState:state,
+       customerStreet:street,
+       customerLandmark:landmark
+    }
+
+  
+
+    localStorage.setItem("customerData",JSON.stringify(billObj));
+}
+
+    document.querySelector("#exp+button").addEventListener("click",saveCardFunction);
+    let saveCardArr=JSON.parse(localStorage.getItem("cardData"))||[];
+    function saveCardFunction(){
+        alert("Card saved");
+
+        let card=document.querySelector("#card").value;
+        let exp=document.querySelector("#expiryDate").value;
+        let cvv=document.querySelector("#expiryDate+input").value;
+        let saveCardObj={
+            cardNumber:card,
+            expiry:exp,
+            CVV:cvv
+        }
+        saveCardArr.push(saveCardObj);
+        localStorage.setItem("cardData",JSON.stringify(saveCardArr))
+    }
+    document.querySelector("#select").addEventListener("change",upi);
+   
+   
+   
+        function upi(){
+            if(document.querySelector("#select").value=="upi"){
+     
+      
+      document.querySelector("select+div").innerHTML=`<button><a href="https://teal-raindrop-50f4c3.netlify.app/">SCAN QR CODE</a></button>`;
+     
+    
+    }
+    }
+  
+    
+    
+    
+</script>

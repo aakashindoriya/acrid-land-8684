@@ -1,0 +1,134 @@
+#navbar {
+    display: flex;
+    height: 60px;
+    background-color: rgb(246, 138, 130);
+    justify-content: space-between;
+    padding: 13px;
+    position: sticky;
+    top: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    z-index: 100;
+
+
+
+}
+
+#pages {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#navbar img {
+    height: 100%;
+}
+
+#pages a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: rgb(199, 193, 193)
+}
+
+#functions {
+    display: flex;
+    width: 22%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#functions>button {
+    height: 100%;
+    border: 1px solid white;
+    background-color: rgb(235, 201, 139);
+    color: white;
+    border-radius: 5%;
+}
+#functions>button:hover{
+    color: black;
+}
+
+#navbar a:hover {
+    color: white;
+    font-size: 16px;
+}
+
+#functions>div {
+    background-color:rgb(235, 201, 139);
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: space-between;
+
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Hubballi&display=swap');
+*{
+font-family: 'Baloo 2', cursive;
+} */
+
+#address{
+   width:60%;
+    margin-top: 20px;
+    line-height: 5px;
+    margin-left: 40px;
+}
+input{
+    width:60%;
+   
+    box-shadow: rgb(246,138,130) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height:40px;
+  border-radius: 10px;
+}
+input:hover{
+    background-color: grey ;
+}
+#exp{
+    display: flex;
+    width:60%
+}
+#paynow{
+    display: flex;
+    margin-left: 40px;
+    
+    width:60%;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+#paynow>p{
+    font-size: 11px;
+}
+#paynow>button{
+    width:60%;
+    height:70px;
+    border:0px;
+    border-radius:10px;
+    background-color: rgb(246,138,130);
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+}
+#pay{
+    
+    width:60%;
+    margin-left:40px;
+}
+h5{
+    color:slategrey;
+}
+#payNow{
+    text-decoration-line: none;
+    color:white;
+}
+#scd{
+    text-decoration-line: none;
+}
+#tc{
+    color:black;
+   }

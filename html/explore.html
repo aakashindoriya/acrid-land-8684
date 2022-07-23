@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore more</title>
+    <style>
+         #navbar {
+            display: flex;
+            height: 60px;
+            background-color: #15171C;
+            justify-content: space-between;
+            padding: 13px;
+            position: sticky;
+            top: 0;
+            margin: 0%;
+            box-sizing: border-box;
+            z-index: 100;
+
+
+
+        }
+
+        #pages {
+            display: flex;
+            width: 30%;
+            justify-content: space-between;
+            align-items: center;
+
+
+        }
+
+        #navbar img {
+            height: 100%;
+        }
+
+        #pages a {
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 1.42857143;
+            color: rgb(199, 193, 193)
+        }
+
+        #functions {
+            display: flex;
+            width: 22%;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        #functions>button {
+            height: 100%;
+            border: 1px solid white;
+            background-color: #15171C;
+            color: white;
+            border-radius: 5%;
+        }
+
+        #navbar a:hover {
+            color: white;
+            font-size: 16px;
+        }
+
+        #functions>div {
+            background-color: #33363f;
+            display: flex;
+            height: 100%;
+            width: 30%;
+            justify-content: space-between;
+
+        }
+                        .mapouter {
+                    position: relative;
+                    height: 500px;
+                    width: 600px;
+                   
+                }
+            
+           
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 700px;
+                
+                    border:3px solid grey;
+                    margin: auto;
+                }
+                .gmap_canvas>h1{
+                    background-color: #15171C;
+                    color:#d9d5d2;
+                }
+
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <h1>Searching For Centers</h1><iframe  width="1000" height="1000" id="gmap_canvas"
+            frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                
+            
+        </div>
+       
+    </div>
+</body>
+</html>
+<script type="module">
+function getLocation(){
+    navigator.geolocation.getCurrentPosition(success);
+    function success(pos) {
+const crd = pos.coords;
+//
+
+
+append(crd.latitude,crd.longitude);
+
+}
+}
+getLocation();
+function append(lat,long){
+let map=`https://maps.google.com/maps?q=${lat},${long}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+
+document.querySelector("#gmap_canvas").src=map;
+
+
+}
+function display(){
+    document.querySelector(".gmap_canvas>h1").innerText="No Centers Found";
+}
+setTimeout(display,5000);
+import { navbar } from "../componants/navbar.js"
+    document.querySelector("#navbar").innerHTML = navbar();
+
+
+
+</script>
