@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cult live</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <style>
+        #video {
+
+ width:500px;
+ margin: auto;
+ margin-top: 30px;
+ text-align: center;
+ 
+}
+video{
+
+    border-radius:20px;
+}
+#video>button{
+    width:200px;
+    height:80px;
+    background-color:coral;
+    color:white;
+    border-radius:20px;
+}
+#video>button:hover{
+    width:210px;
+    height:90px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="video" >
+        <video width="100%" controls>
+            <source src="https://cdn-media.cure.fit/video/cflive_pack_page_mock_v2_revised.mp4" type="video/mp4">
+          </video>
+          <button onclick="fun()">START FREE CLASSES FROM TODAY</button>
+    
+    </div>
+</body>
+</html>
+<script type="module">
+    import {navbar,getLocation} from "../componants/navbar.js";
+    document.querySelector("#navbar").innerHTML=navbar();
+    window.onload=getLocation();
+   
+  
+</script>
+<script>
+  function fun(){
+        alert("Registration Successfull");
+        window.location.href="fitness.html";
+    }
+</script>
