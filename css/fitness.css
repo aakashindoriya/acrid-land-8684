@@ -1,4 +1,5 @@
 *{
+    font-family:  BrandonTextWeb-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-family: 'BrandonTextWeb-Regular';
     font-style: inherit;
     }
@@ -11,15 +12,11 @@ body{
     margin: auto;
    
     justify-content: center;
-
-
 }
-
 #first>img {
     height: 100%;
     width: 100%;
 }
-
 #second {
     display: flex;
     width: 50%;
@@ -28,11 +25,8 @@ body{
     position: absolute;
     top: 47%;
     left: 23%;
-
-
     justify-content: space-between;
 }
-
 #second>div:nth-child(1) {
     border: 0.1px solid #b6b2af;
     text-align: center;
@@ -40,9 +34,7 @@ body{
     width: 40%;
     height: 150px;
     margin-top: 100px;
-
 }
-
 #second>div:nth-child(3) {
     border: 0.1px solid #b6b2af;
     text-align: center;
@@ -50,10 +42,7 @@ body{
     width: 40%;
     height: 150px;
     margin-top: 100px;
-
-
 }
-
 #second_2 {
     height: 20%;
     color: #f68a82;
@@ -62,35 +51,26 @@ body{
     text-align: center;
     margin-top: 20px;
     justify-content: center;
-
-
-
 }
-
 #second_2:hover {
     color: black;
     ;
 }
-
 #second div>p {
     color: #b6b2af;
 }
-
 #second_1>h1 {
     color: #fed373;
 }
-
 #second_3>h1 {
     background: -webkit-linear-gradient(#9f86d9, #db6aae);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 #second div {
     border-radius: 10px;
 }
-
 #third {
  
     height: 150px;
@@ -102,20 +82,13 @@ body{
     justify-content: space-evenly;
     background-color: #2f3743;
 }
-
-
 #third_1 {
 width: 60%;
-
 }
-
 .timer {
-
     width: 40%;
     padding-left: 120px;
-
 }
-
 #navbar {
     display: flex;
     height: 60px;
@@ -127,39 +100,28 @@ width: 60%;
     margin: 0%;
     box-sizing: border-box;
     z-index: 100;
-
-
-
 }
-
 #pages {
     display: flex;
     width: 30%;
     justify-content: space-between;
     align-items: center;
-
-
 }
-
 #navbar img {
     height: 100%;
 }
-
 #pages a {
     text-decoration: none;
     font-size: 15px;
     line-height: 1.42857143;
     color: rgb(199, 193, 193)
 }
-
 #functions {
     display: flex;
     width: 22%;
     justify-content: space-between;
     align-items: center;
-
 }
-
 #functions>button {
     height: 100%;
     border: 1px solid white;
@@ -167,21 +129,17 @@ width: 60%;
     color: white;
     border-radius: 5%;
 }
-
 #navbar a:hover {
     color: white;
     font-size: 16px;
 }
-
 #functions>div {
     background-color: #33363f;
     display: flex;
     height: 100%;
     width: 30%;
     justify-content: space-between;
-
 }
-
         .mapouter {
             position: relative;
             height: 500px;
@@ -324,7 +282,6 @@ width: 60%;
    #seventh img{
     width:30%;
     height:100%;
-
    }
    #seventh img:hover{
     width:29%;
@@ -365,7 +322,6 @@ width: 60%;
    #subeighth{
     width:50%;
     height:70%;
-
    }
    #subeighth>img{
     width:100%;
@@ -415,7 +371,6 @@ width: 60%;
    #subninth{
     width:50%;
     height:70%;
-
    }
    #subninth>img{
     width:100%;
@@ -436,7 +391,6 @@ width: 60%;
     width:30px;
     height:30px;
    }
-
    #tenth div{
     display: flex;
     justify-content: flex-start;
@@ -444,25 +398,20 @@ width: 60%;
     
    }
    #tenth{
-
   background: url(https://media3.giphy.com/media/DBbPjLMsQPruMkDcrd/giphy.gif);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: auto;
   color: white;
-
   width:50%;
   border-radius: 20px;
   margin-top: 30px;
-
-
    }
    #tenth>img:first-child{
     width:200px;
     height:60px;
     margin-left: 450px;
     margin-top: 20px;
-
    }
 #tenth button{
     width:200px;
@@ -491,7 +440,6 @@ width: 60%;
     border-radius: 20px;
 }
 #eleventh:hover{
-
     cursor: pointer;
 }
 #twelfth{
