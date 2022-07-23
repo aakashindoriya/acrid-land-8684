@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./css/index.css" />
   <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
 
 </head>
 
@@ -17,6 +18,11 @@
   <div id="kfirstVideo">
     <div id="navbar"></div>
     <!-- <button onclick="openLogin()">click me</button> -->
+
+    <video autoplay muted loop id="myVideo">
+      <source src="https://cdn-images.cure.fit/www-curefit-com/video/upload/c_fill,w_1600,ar_1.77,q_auto:eco,dpr_2,vc_auto,f_auto/video/test/we-are-cult-web.mp4" type="video/mp4">
+      
+    </video>
   </div>
   <div id="cart_space"></div>
   <!-- <div id="navbar"></div>
@@ -68,17 +74,6 @@
 
     <!-- add  -->
     <h1 class="firstLine" data-aos="zoom-in-down">Fun, trainer led group classes</h1>
-    <!-- <div id="animationCard2">
-          <div class="kAniCard" data-aos="zoom-in-down">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,ar_2.144,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/text-backdrop-overlay.svg" />
-          </div>
-          <div class="kAniCard" data-aos="zoom-in-down">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,ar_2.144,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/text-backdrop-overlay.svg"/>
-          </div>
-          <div class="kAniCard" data-aos="zoom-in-down">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,ar_2.144,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/text-backdrop-overlay.svg"/>
-          </div>
-        </div> -->
 
     <!-- new  -->
     <div id="grid1">
@@ -106,43 +101,43 @@
 
     <h2 class="line3Id" data-aos="zoom-in-down">cultpass</h2>
     <h5 class="line3Id" style="color: rgb(23, 112, 236);">LEARN MORE</h5>
-    <div id="cart_3">
+    <div id="kcart_3">
       <div>
-        <img src="./img/8.jpeg" />
+        <img src="./img/8.jpeg" href="./html/fitness.html" />
         <h5>Unlimited access to</h5>
         <ul>At-center group classes</ul>
-        <ul>At-center group classes</ul>
-        <ul>At-center group classes</ul>
+        <ul>All ELITE & PRO gyms</ul>
+        <ul>At-home live workouts</ul>
       </div>
       <div>
-        <img src="./img/7.jpeg" />
+        <img src="./img/7.jpeg" href="./html/fitness.html" />
         <h5>Unlimited access to</h5>
-        <ul>At-center group classes</ul>
-        <ul>At-center group classes</ul>
-        <ul>At-center group classes</ul>
+        <ul>All PRO gyms</ul>
+        <ul>4 Sessions/m at ELITE gyms & group classes</ul>
+        <ul>At-home live workouts</ul>
       </div>
       <div>
-        <img src="./img/10.jpeg" />
+        <img src="./img/10.jpeg" href="./html/fitness.html" />
         <h5>Unlimited access to</h5>
-        <ul>At-center group classes</ul>
-        <ul>At-center group classes</ul>
-        <ul>At-center group classes</ul>
+        <ul>At home workouts</ul>
+        <ul> Celebrity Workouts</ul>
+        <ul>Goal-based Workouts and Meditation Sesssions</ul>
       </div>
     </div>
 
 
     <div id="bigCart4">
-      <div id="bigCart4_1">
+      <div id="bigCart4_1" href="./html/fitness.html">
         <div><img src="./img/1 5.jpeg" /></div>
         <div><img src="./img/1 10.jpeg" /></div>
       </div>
-      <div id="bigCart4_2">
+      <div id="bigCart4_2" href="./html/fitness.html">
         <div><img src="./img/9.jpeg" /></div>
         <div><img src="./img/1 5.jpeg" /></div>
       </div>
 
       <div id="longDiv1">
-        <img src="./img/Cult1.jpeg" />
+        <img src="./img/Cult1.jpeg" href="./html/storepage.html" />
       </div>
 
       <h1 id="longLine1">Join the cult family</h1>
@@ -153,11 +148,11 @@
       </div>
 
       <div id="longdiv2"><img src="./img/1 3.jpeg" /></div>
-
+<div id="footer"></div>
 
     </div>
 
-
+  
 
 
     <!-- <div id="CartSection">
@@ -191,6 +186,10 @@
   import { navbar, getLocation } from "./componants/navbar.js"
   document.getElementById("navbar").innerHTML = navbar()
 
+  import { footer } from "./componants/footer.js"
+  document.getElementById("footer").innerHTML = footer()
+
+
   // cart 
 
 
@@ -214,7 +213,7 @@
           </div>
 
          
-          <div class="checkout"><button id="kcheckoutBtn">Checkout</button></div>
+          <div class="checkout"><button id="kcheckoutBtn">BUY NOW</button></div>
           
         </div>
       </div>`

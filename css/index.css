@@ -1,35 +1,58 @@
-:root {
-  --after-content: '2';
-}
 
 #bgBlack {
   background-color: black;
 }
 
 #kfirstVideo {
-  background: url("https://cdn-images.cure.fit/www-curefit-com/video/upload/c_fill,w_1600,ar_1.77,q_auto:eco,dpr_2,vc_auto,f_auto/video/test/we-are-cult-web.mp4");
+  /* background: url("https://cdn-images.cure.fit/www-curefit-com/video/upload/c_fill,w_1600,ar_1.77,q_auto:eco,dpr_2,vc_auto,f_auto/video/test/we-are-cult-web.mp4");
+  background-size: cover;
+  height: 700px;
+  width: 100%; */
+  background-color: black;
+}
+#myVideo {
+
   background-size: cover;
   height: 700px;
   width: 100%;
 }
-
 .kEliteCard {
-  height: 220px;
+  /* height: 220px;
   width: 400px;
   background-color: rgb(74, 68, 68);
   color: rgb(159, 152, 152);
   font-family: 'BrandonTextWeb-Regular';
   border: solid 1px rgb(217, 205, 202);
   margin: 30px;
+  font-size: 20px; */
+
+  height: 220px;
+  width: 25%;
+  background-color:hsla(41, 100%, 10%, 0.7);;
+  color: rgb(159, 152, 152);
+  font-family: 'BrandonTextWeb-Regular';
+  border: solid 1px rgb(217, 205, 202);
+  margin: 30px;
   font-size: 20px;
+  margin: auto;
 }
 
 #card_3 {
 
-  display: flex;
+  /* display: flex;
   justify-content: center;
   text-align: center;
-  background-color: black;
+  background-color: black; */
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: 0px;
+ width: 100%;
+  position: absolute;
+  top:500px;
+  z-index: 5;
+  
 }
 
 #card_3>h1 {
@@ -54,6 +77,8 @@
   font-size: 80px;
   color: #fff;
 }
+
+
 
 /* new  */
 
@@ -80,27 +105,33 @@
 
 }
 
-#cart_3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+#kcart_3 {
+  display: flex;
+ margin-left: 200px;
+ margin-bottom: 100px;
+  gap: 20px;
+  background: url("");
 }
 
-#cart_3>div>img {
+#kcart_3>div>img {
   height: 300px;
   width: 300px;
   border-radius: 15px;
 }
 
-#cart_3>div {
+#kcart_3>div {
   height: 500px;
   width: 300px;
+  border: solid 1px rgb(115, 111, 111);
+  border-radius: 15px;
+
 }
 
-#cart_3>div>h5 {
+#kcart_3>div>h5 {
   color: #fff;
 }
 
-#cart_3>div>ul {
+#kcart_3>div>ul {
   color: #fff;
 
 }
@@ -242,7 +273,7 @@
   width: 26% !important;
   position: absolute;
   left: 72%;
-  top: 25%;
+  top: 10%;
 
   padding: 10px 20px;
   background-color: #fff;
@@ -251,7 +282,7 @@
 .cart-wrapper {
   overflow-y: auto;
   max-height: 350px;
-  width: 24vw;
+  width: 25vw;
 
 }
 
@@ -260,19 +291,27 @@
   padding: 5%;
 }
 
-.checkout,
-.view-cart {
+.checkout
+{
   width: 95%;
   text-align: center;
   cursor: pointer;
-  background-color: brown;
+ 
+  background-color: rgb(255, 50, 120);
   font-size: large;
   color: #fff;
   margin: 10px auto;
   padding: 10px 15px;
 
 }
-
+/* .checkout > button{
+  border: none;
+} */
+#kcheckoutBtn{
+  border: none;
+  background: none;
+  color: #fff;
+}
 .cart-item {
   display: grid;
   grid-template-columns: 3fr 6fr 1fr;
