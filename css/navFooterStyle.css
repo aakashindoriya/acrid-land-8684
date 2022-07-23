@@ -569,5 +569,8 @@
     height: 22px;
     width: 22px;
     }
-
+    }
+    a {
+        text-decoration: none;
+        color: black;
     } 

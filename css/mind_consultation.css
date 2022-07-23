@@ -1,0 +1,207 @@
+    #navbar1{
+    margin: 0%;
+    box-sizing: border-box;
+    }
+    #navbar1{
+    display: flex;
+    height: 60px;
+    background-color:#15171C;
+    justify-content: space-between;
+    padding: 13px;
+    position: sticky;
+    top:0%;
+    }
+    #navbar1 img{
+    height: 100%;
+    }
+    #pages a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color:rgb(199, 193, 193)
+    }
+    #functions{
+    display: flex;
+    width: 22%;
+    justify-content: space-between;
+    align-items: center;    
+    }
+    #functions>button{
+    height: 100%;
+    border: 1px solid white;
+    background-color: #15171C;
+    color: white;
+    border-radius: 5%;
+    }
+    #navbar1 a:hover{
+    color: white;
+    font-size: 16px;
+    }
+    #functions>div{
+    background-color: #15171C;
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: space-between;
+
+    }
+    #location{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin-top: 4px;
+    text-transform: uppercase;
+    }
+    #functions>div:hover{
+    background-color:#33363f ;
+    }
+    #navbar {
+    width: 100%;
+    height: 64px;
+    background-color: #444a5a;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    }
+    #innerNavbar {
+    width: 97%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }  
+    #navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 450px;
+    }
+    #navbar ul li {
+    height: 100%;
+    list-style: none;
+    }
+    #eatSubpages{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: larger; 
+    position: sticky;
+    z-index: 1;
+    }
+    #eatSubpages ul li a{
+    margin-left: 60px;
+    margin-right: 40px;
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    line-height: 1.25;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color: white;
+    }
+    #part1 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    }
+    #part2 {
+    width: 50%;
+    }
+    /* Footer Part */
+    #Nikfooter {
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    }
+
+    #footerd1 {
+    width: 37%;
+    height: 100%;
+    }
+
+    #footerd1I {
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 10%;
+    }
+
+    #footerd1P {
+    margin-left: 17%;
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a2a2a2;
+    }
+
+    #footerd2 {
+    width: 20%;
+    height: 100%;
+    }
+
+    .nikContact {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.94;
+    letter-spacing: normal;
+    list-style: none;
+    margin-left: 20%;
+    }
+
+    #footerd3 {
+    width: 20%;
+    height: 100%;
+    }
+    #footerd4 {
+    height: 100%;
+    }
+    .nikContact1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.94;
+    letter-spacing: normal;
+    list-style: none;
+    margin-left: 15%;
+    margin-top: 10%;
+    }
+    #partone {
+        display: flex;
+        gap: 60px;
+        font-size: large;
+    }
+    #parttwo {
+        display: flex;
+        gap: 60px;
+        font-weight: bold;
+        font-size: large;
+    }
+    button {
+        padding: 15px;
+        border-radius: 25px;
+        border: 0px solid ;
+        width: 50%;
+        color: white;
+        background-color: #FF3278;
+        font-size: larger;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
