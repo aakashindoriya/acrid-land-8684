@@ -128,7 +128,7 @@ console.log(total)
 
     kcheckoutBtn.addEventListener("click", function () {
         localStorage.setItem("total_payment",total)
-      window.location.href = "html/payments.html"
+      window.location.href = "./payments.html"
     })
 
   
@@ -142,11 +142,12 @@ console.log(total)
     photo.src=data.image
     document.getElementById("old").innerText=`₹ ${data.price}`
     document.getElementById("new").innerText=`₹ ${data.offer}`
-   
+    document.getElementById("description").innerText=`${data.discription}`
     function addToCart(){
         let arr=JSON.parse(localStorage.getItem("cart_Item"))||[]
         arr.push(data)
         localStorage.setItem("cart_Item",JSON.stringify(arr))
+        alert("Test is added to the cart")
     }
 
 </script>
