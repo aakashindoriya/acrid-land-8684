@@ -2,13 +2,14 @@
 #bgBlack {
   background-color: black;
 }
-#kfirstVideo{
+
+#kfirstVideo {
+  /* background: url("https://cdn-images.cure.fit/www-curefit-com/video/upload/c_fill,w_1600,ar_1.77,q_auto:eco,dpr_2,vc_auto,f_auto/video/test/we-are-cult-web.mp4");
+  background-size: cover;
+  height: 700px;
+  width: 100%; */
   background-color: black;
 }
-
-#myVideo {
-
-
 #myVideo {
 
   background-size: cover;
@@ -16,7 +17,9 @@
   width: 100%;
 }
 .kEliteCard {
-
+  /* height: 220px;
+  width: 400px;
+  background-color: rgb(74, 68, 68);
   color: rgb(159, 152, 152);
   font-family: 'BrandonTextWeb-Regular';
   border: solid 1px rgb(217, 205, 202);
@@ -32,15 +35,25 @@
   margin: 30px;
   font-size: 20px;
   margin: auto;
-
+}
 
 #card_3 {
+
+  /* display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black; */
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
   border: 0px;
  width: 100%;
   position: absolute;
   top:500px;
   z-index: 5;
-
+  
+}
 
 #card_3>h1 {
   font-size: 30px;
