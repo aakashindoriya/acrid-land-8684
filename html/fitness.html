@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,6 +24,7 @@
             <div id="third_1">
                 <h1>FLASH SALE | ONLY TODAY</h1>
                 <h4>Free ₹2000 Puma voucher + Extra 3 months extension | On CULT pass ELITE</h4>
+
             </div>
             <div class="timer">
                 <h2>-------- Ends in--------</h2>
@@ -125,15 +127,13 @@
                      <a href="buyNow.html" style="text-decoration:none"> <button style="color: crimson">Buy Now</button></a>
                     </td>
                     <td>Starting at ₹999/month
-
                         <a href="buyNow.html" style="text-decoration:none"> <button style="color: crimson">Buy Now</button></a>
                     </td>
                     <td class="td">Starting at ₹115/month
- 
                         <a href="buyNow.html" style="text-decoration:none"> <button style="color: crimson">Buy Now</button></a>
                     </td>
                 </tr>
-
+           
                 
             </tbody>
         </table>
@@ -141,6 +141,7 @@
     <div id="preseventh">
         <h1>FREE TRIALS</h1>
     </div>
+
     <div id="seventh">
         
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,ar_0.75,q_auto:eco,dpr_2,f_auto,fl_progressive/image/vm/22ae2a86-60e9-4de3-9180-678f40b69eb0.png"
@@ -159,7 +160,6 @@
                     <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>All ELITE and PRO gyms</p></div>
                     <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>At-home live workouts</p></div>
                     <p>Starting at ₹1178/month</p>
-                    
                     <a href="buyNow.html" style="text-decoration:none"> <button style="color: crimson">Buy Now</button></a>
                     <div>
                         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,ar_0.96,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="">
@@ -183,7 +183,6 @@
                     <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>At-home live workouts</p></div>
                     <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt=""><p>$ sessions/month at ELITE gyms & group classes</p></div>
                     <p>Starting at ₹1178/month</p>
-          
                     <a href="buyNow.html" style="text-decoration:none"> <button style="color: crimson">Buy Now</button></a>
                     <div>
                         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,ar_0.96,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="">
@@ -201,7 +200,6 @@
                     <p>Celebrity workouts</p></div>
                     <div><img src="https://static.cure.fit/assets/images/orangeTick.png" alt="">
                         <p>Goal based workouts & meditation session</p></div>
-                      
                         <a href="buyNow.html" style="text-decoration:none"> <button style="color: crimson">Buy Now</button></a>
                         <div><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,ar_0.96,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="">
                         <p>SALE ON NOW</p></div>
@@ -243,6 +241,7 @@
         <P class="nikContact1">CORPORATE PARTNERSHIPS</P>
     </div>
     <div id="footerd4"></div>
+
     <!-- app store part -->
     <div id="footerd4">
         <a href="https://apps.apple.com/us/app/cure-fit/id1217794588">
@@ -306,10 +305,10 @@
                     <h1 id="demo"></h1>
                 </div>
                 </div>`;
-    let str2 = `  <div id="third" style="background: -webkit-linear-gradient(#9f86d9, #db6aae);">
+    let str2 = `  <div id="third" style="background-color:#db6aae">
             <div id="third_1">
                 <h1>Upto Four months extension Free</h1>
-                <h4> On CULT pass LIVE</h4>
+                <h4> |On CULT pass LIVE</h4>
                 
             </div>
                 <div class="timer">
@@ -317,7 +316,7 @@
                     <h1 id="demo"></h1>
                 </div>
                 </div>`;
-    let str3 = `  <div id="third" style="background: -webkit-linear-gradient(#9f86d9, #5C4033);">
+    let str3 = `  <div id="third" style="background-color:#5C4033" >
             <div id="third_1">
                 <h1>AMAZON VOUCHER + 3 MONTHS EXTENSION</h1>
                 <h4> On CULT TRANSFORM</h4>
@@ -330,7 +329,9 @@
                 </div>`;
     arr.push(str2, str3, str1);
     let third_mother = document.querySelector("#third_mother");
+
     let i = 0;
+
     function slideshow() {
         third_mother.innerHTML = null;
         if (i < 3) {
@@ -342,11 +343,13 @@
         }
         i++;
     }
+
+
+
     let z = setInterval(slideshow, 5000);
     // clearInterval(z);
 
     setTimeout(addSecondComponents, 5000);
-   
     import { navbar,getLocation } from "../componants/navbar.js"
     window.onload=getLocation();
     document.querySelector("#navbar").innerHTML = navbar();
@@ -355,30 +358,36 @@
         function success(pos) {
     const crd = pos.coords;
     //
+
    
     append(crd.latitude,crd.longitude);
-
+   
   }
 }
-
 getlocation();
 function append(lat,long){
     let map=`https://maps.google.com/maps?q=${lat},${long}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
 
     document.querySelector("#gmap_canvas").src=map;
+
+
 }
 let seventh=document.querySelectorAll("#seventh img");
 seventh.forEach((el)=>{
     el.addEventListener("click",()=>{
     window.location.href="explore.html";
 })
+
 })
+
 let subeighthArr=[];
 let subeighthArr_1="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/black1.png";
 let subeighthArr_2="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/black2.png";
 subeighthArr.push(subeighthArr_1,subeighthArr_2);
 let subeighthimg=document.createElement("img");
+
 let subeighth=document.querySelector("#subeighth");
+
 let j=0;
 let slide=()=>{
     if(j<2){
@@ -392,6 +401,7 @@ let slide=()=>{
         j=-1;
     }
     j++;
+
 }
 setInterval(slide,3000);
 // ................................................................................................
@@ -400,7 +410,9 @@ let subninthArr_1="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fi
 let subninthArr_2="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/gold1.png";
 subninthArr.push(subninthArr_1,subninthArr_2);
 let subninthimg=document.createElement("img");
+
 let subninth=document.querySelector("#subninth");
+
 let k=0;
 let nslide=()=>{
     if(k<2){
@@ -422,4 +434,5 @@ function buyNow(){
 
 </script>
 <script src="../componants/timer.js">
+  
 </script>
