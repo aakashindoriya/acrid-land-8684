@@ -99,10 +99,19 @@ document.getElementById("cartPage").addEventListener("click",()=>{
     console.log(cart_page_details);
     let cartAdd = document.getElementById("cartAdd")
 
-    cart_page_details.forEach(function (el) {
+    cart_page_details.forEach(function (el,index) {
 
       let div = document.createElement("div")
       div.setAttribute("class", "cart-item")
+
+      let eachCross = document.createElement("h3")
+      eachCross.innerText ="╳"
+      eachCross.addEventListener("click",function(){
+        cart_page_details.splice(index,1)
+         localStorage.setItem("cart_Item",JSON.stringify(cart_page_details))
+         window.location.reload()
+        
+      })
 
       let image = document.createElement("img")
       image.src = el.image
@@ -120,7 +129,7 @@ document.getElementById("cartPage").addEventListener("click",()=>{
       title.setAttribute("id", "cart-title")
 
       div1.append(title, price)
-      div.append(image, div1)
+      div.append(image, div1,eachCross)
       cartAdd.append(div)
     })
 
