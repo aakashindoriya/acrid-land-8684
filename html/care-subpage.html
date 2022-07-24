@@ -142,7 +142,7 @@ console.log(total)
     photo.src=data.image
     document.getElementById("old").innerText=`₹ ${data.price}`
     document.getElementById("new").innerText=`₹ ${data.offer}`
-    document.getElementById("description").innerText=`${data.discription}`
+   
     function addToCart(){
         let arr=JSON.parse(localStorage.getItem("cart_Item"))||[]
         arr.push(data)
