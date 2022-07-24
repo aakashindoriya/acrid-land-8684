@@ -1,149 +1,376 @@
 {
     "careData":[
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FitCheck_Magazine-02.png",
-        "price": "1900",
-        "offer": "890",
-        "discription": "Full Body Checkup"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Vitamin_Profile_clp.jpg",
-        "price": "4999",
-        "offer": "790",
-        "discription": "Vitamin Profile"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Thyroid_Screening_clp.jpg",
-        "price": "596",
-        "offer": "390",
-        "discription": "Thyroid Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_men_magazine_web2.png",
-        "price": "2996",
-        "offer": "1790",
-        "discription": "Fitness Essentials - Men"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_women_magazine_web2.png",
-        "price": "2999",
-        "offer": "1790",
-        "discription": "Fitness Essentials - Women"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_m_mag.png",
-        "price": "5999",
-        "offer": "2990",
-        "discription": "Sr.Citizen Advance Package - Male"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_f_mag.png",
-        "price": "5999",
-        "offer": "2990",
-        "discription": "Sr.Citizen Advance Package - Female"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/IronScreeningClp122020.png",
-        "price": "996",
-        "offer": "590",
-        "discription": "Iron Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/WomensHealthScreening_Magazine.png",
-        "price": "3490",
-        "offer": "1490",
-        "discription": "Women's Health"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/PCODMagazineWeb.png",
-        "price": "2490",
-        "offer": "1990",
-        "discription": "PCOD Profile"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/HaemogramWithCBCClp.jpg",
-        "price": "590",
-        "offer": "290",
-        "discription": "Haemogram With CBC"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Diabetes_Screening_clp.jpg",
-        "price": "596",
-        "offer": "450",
-        "discription": "Diabetes Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/LipidScreening_Magazine.png",
-        "price": "696",
-        "offer": "290",
-        "discription": "Lipid Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/ImmunityCcreening_Magazine.png",
-        "price": "2996",
-        "offer": "1190",
-        "discription": "Immunity Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/CF01032_hero_2.png",
-        "price": "1500",
-        "offer": "990",
-        "discription": "Energy Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/PregnancyScreening_Magazine.png",
-        "price": "790",
-        "offer": "590",
-        "discription": "Pregnancy Test"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Kidney_Screening_clp.jpg",
-        "price": "490",
-        "offer": "290",
-        "discription": "Kidney Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/HairFallScreeningClp122019.png",
-        "price": "2996",
-        "offer": "1090",
-        "discription": "Hair Fall Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/BoneHealthScreening_Magazine.png",
-        "price": "1496",
-        "offer": "890",
-        "discription": "Bone Health Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Liver_Screening_clp.jpg",
-        "price": "690",
-        "offer": "290",
-        "discription": "Liver Screening"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FeverPanel_Magazine.jpg",
-        "price": "1990",
-        "offer": "890",
-        "discription": "Fever Panel"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/Anemia_Magazine_Web_new.png",
-        "price": "2990",
-        "offer": "1390",
-        "discription": "Alcohol Risk"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Obesity_Risk_Magazine.jpg",
-        "price": "2990",
-        "offer": "1190",
-        "discription": "Obesity Risk"
-      },
-      {
-        "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/Anemia_Magazine_Web_new.png",
-        "price": "1990",
-        "offer": "1490",
-        "discription": "Anemia Profile"
-      }
-    ]
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FitCheck_Magazine-02.png",
+          "price": "1990",
+          "offer": "890"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Vitamin_Profile_clp.jpg",
+          "price": "1990",
+          "offer": "790"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Thyroid_Screening_clp.jpg",
+          "price": "590",
+          "offer": "390"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_men_magazine_web2.png",
+          "price": "2990",
+          "offer": "1790"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_women_magazine_web2.png",
+          "price": "2990",
+          "offer": "1790"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_m_mag.png",
+          "price": "5999",
+          "offer": "2990"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/IronScreeningClp122020.png",
+          "price": "990",
+          "offer": "590"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/PCODMagazineWeb.png",
+          "price": "2490",
+          "offer": "1990"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_f_mag.png",
+          "price": "5999",
+          "offer": "2990"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/WomensHealthScreening_Magazine.png",
+          "price": "3490",
+          "offer": "1490"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/HaemogramWithCBCClp.jpg",
+          "price": "590",
+          "offer": "450"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Diabetes_Screening_clp.jpg",
+          "price": "590",
+          "offer": "290"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/LipidScreening_Magazine.png",
+          "price": "690",
+          "offer": "290"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/ImmunityCcreening_Magazine.png",
+          "price": "2990",
+          "offer": "1190"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/CF01032_hero_2.png",
+          "price": "2990",
+          "offer": "990"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/PregnancyScreening_Magazine.png",
+          "price": "790",
+          "offer": "590"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/PregnancyScreening_Magazine.png",
+          "price": "290",
+          "offer": "280"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/HairFallScreeningClp122019.png",
+          "price": "2990",
+          "offer": "1090"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/BoneHealthScreening_Magazine.png",
+          "price": "1490",
+          "offer": "890"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Liver_Screening_clp.jpg",
+          "price": "690",
+          "offer": "290"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FeverPanel_Magazine.jpg",
+          "price": "1990",
+          "offer": "890"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Alcohol_magazine.png",
+          "price": "2990",
+          "offer": "1390"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/Anemia_Magazine_Web_new.png",
+          "price": "1990",
+          "offer": "1460"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/Anemia_Magazine_Web_new.png",
+          "price": "1990",
+          "offer": "1460"
+        },
+        {
+          "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Obesity_Risk_Magazine.jpg",
+          "price": "2990",
+          "offer": "1190"
+        }
+        ],
+ 
+  "bestSellerData" : [
+          {
+            "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/SDgpHbPyumHJkqeM5ehAh6Gh",
+            "company": "fitkit",
+            "title": "FITKIT 10K 2.5HP DC Motorized Treadmill",
+            "price": "₹ 23699",
+            "offer": "66 % Off"
+          },
+          {
+            "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/FsezbKx6Tyj3DAXyHa7bL6hu",
+            "company": "fitkit",
+            "title": "FT200S 4.5HP DC Motorized Treadmill",
+            "price": "₹ 29699",
+            "offer": "60 % Off"
+          },
+          {
+            "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/AqGDxJejHHHFrpVo46VHz4hD",
+            "company": "fitkit",
+            "title": "FT100M, 3.25HP DC Motorized Treadmill",
+            "price": "27699",
+            "offer": "50 % Off"
+          },
+          {
+            "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
+            "company": "ONEFITPLUS",
+            "title": "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
+            "price": "16699",
+            "offer": "58 % Off"
+          }
+        ],
         
+  "justLauched" : [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/DHjJcDyA9cmpAJqFt954L5kB",
+    "company": "CULTSPORT",
+    "title": "Cultsport Liquid L-Carnitine, 450ml",
+    "price": "₹ 1399",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fwi2jmJph517We1h3R1xcdvw",
+    "company": "CULTSPORT",
+    "title": "Cultsport Raw Whey 80%, 908g",
+    "price": "₹ 2699",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cfDadvHHySps9QduNkLSeaqv",
+    "company": "CULTSPORT",
+    "title": "Cultsport Elite 100% Whey, 1 Kg",
+    "price": "₹ 3499",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/L5fKq5BFJGzsMrSuqDNnqqWy",
+    "company": "CULTSPORT",
+    "title": "Smartrow c1: Smart Bluetooth enabled Rowing Machine",
+    "price": "₹ 39900",
+    "offer": "60 % Off"
+  }
+],
+
+"TREADMILLS" : [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/SDgpHbPyumHJkqeM5ehAh6Gh",
+    "company": "Fitkit",
+    "title": "FITKIT 10K 2.5HP DC Motorized Treadmill",
+    "price": "₹ 23699",
+    "offer": "66 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/FsezbKx6Tyj3DAXyHa7bL6hu",
+    "company": "Fitkit",
+    "title": "FT200S 4.5HP DC Motorized Treadmill",
+    "price": "₹ 29699",
+    "offer": "60 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/AqGDxJejHHHFrpVo46VHz4hD",
+    "company": "Fitkit",
+    "title": "FT100M, 3.25HP DC Motorized Treadmill",
+    "price": "₹ 27699",
+    "offer": "50 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
+    "company": "OneFitplus",
+    "title": "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
+    "price": "₹ 16699",
+    "offer": "58 % Off"
+  }
+],
+
+"Spinbikes" : [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/vX1Vgko9H9n3Nn3rdyQnNkrb",
+    "company": "CULTSPORT",
+    "title": "Smartbike c1: Bluetooth enabled spin bike with 8-level magnetic resistance",
+    "price": "₹ 24999",
+    "offer": "39 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nTvMdcZi5B2MzrXZJicv7acr",
+    "company": "CULTSPORT",
+    "title": "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
+    "price": "₹ 26499",
+    "offer": "41 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
+    "company": "OneFitplus",
+    "title": "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
+    "price": "₹ 16699",
+    "offer": "58 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/kTssBkQouVdBHn446kZPn5bG",
+    "company": "CULTSPORT",
+    "title": "smartbike x1 with 22\" HD touchscreen",
+    "price": "₹ 46999",
+    "offer": "61 % Off"
+  }
+],
+
+ "cycle" : [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/4Jwdn1u2RcKw9xYBM6cZtNBD",
+    "company": "Urban Terrain",
+    "title": "UT3003A26, Black, Alloy MTB 26 T Shimano Geared Mountain Cycle (21 Gear)",
+    "price": "₹ 13999",
+    "offer": "68 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Thbifm3mmLLx3pWffTY8vTMV",
+    "company": "Urban Terrain",
+    "title": "UT2000, Red, Steel MTB 27.5 T Shimano Geared Mountain Cycle (21 Gear)",
+    "price": "₹ 12999",
+    "offer": "74 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/gPwaekWjEnjBg1q3thWowfjV",
+    "company": "Urban Terrain",
+    "title": "UT6000S29, Green, Steel MTB 29 T Shimano Geared Mountain Cycle",
+    "price": "₹ 13999",
+    "offer": "72 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/7ZgbJ1Aj2pvN34SJQKhkQdcE",
+    "company": "Urban Terrain",
+    "title": "BOLT UT5000S26, Green, Steel MTB Disc Brakes, 26 T Mountain Cycle (Single Speed)",
+    "price": "₹ 9199",
+    "offer": "49 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/s47Jf9KyWB1BAZHzWqN5cdiA",
+    "company": "Urban Terrain",
+    "title": "UT3001A27.5, Black, Alloy MTB 27.5 T Shimano Geared Mountain Cycle",
+    "price": "₹ 13999",
+    "offer": "71 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/91o5kH6fEvNrKFHAe7S42tey",
+    "company": "Urban Terrain",
+    "title": "UT3013S27.5, Black, Steel MTB 27.5 T Shimano Geared Mountain Cycle",
+    "price": "₹ 12999",
+    "offer": "72 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/YnaRDF2jE5Tu7eL23T7gascr",
+    "company": "Urban Terrain",
+    "title": "UT7000S26, (Black, Red) Steel, Wire Brake, 26T City Bike (Single Speed)",
+    "price": "₹ 7099",
+    "offer": "41 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/c7XhqwsA6bDpazyU1DLzF22Y",
+    "company": "Urban Terrain",
+    "title": "UT7002S26, (Yellow, Black) Steel, Wire Brake, 26T City Bike (Single Speed)",
+    "price": "₹ 7099",
+    "offer": "41 % Off"
+  }
+],
+
+ "Accessories" : [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/rqFrmhQat5ajC62f7rKCPU6m",
+    "company": "CULTSPORT",
+    "title": "Signature Boxing Hand Wraps",
+    "price": "₹ 359",
+    "offer": "40 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
+    "company": "CULTSPORT",
+    "title": "Yoga Strap",
+    "price": "₹ 359",
+    "offer": "40 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/TCnGF1WquCn1iV4VyMbRK6q7",
+    "company": "CULTSPORT",
+    "title": "EVA Foam Yoga Block",
+    "price": "₹ 539",
+    "offer": "40 % Off"
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/dYff3qUPgwn5y93aqH8XPoem",
+    "company": "CULTSPORT",
+    "title": "Eco-Friendly Cork Yoga Block",
+    "price": "₹ 719",
+    "offer": "40 % Off"
+  }
+],
+
+
+
+ "health" : [
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,c_fill/dpr_2/cultgear-content/DHjJcDyA9cmpAJqFt954L5kB",
+    "company": "CULTSPORT",
+    "title": "Cultsport Liquid L-Carnitine, 450ml",
+    "price": "₹ 1399",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fwi2jmJph517We1h3R1xcdvw",
+    "company": "CULTSPORT",
+    "title": "Cultsport Raw Whey 80%, 908g",
+    "price": "₹ 2699",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cfDadvHHySps9QduNkLSeaqv",
+    "company": "CULTSPORT",
+    "title": "Cultsport Elite 100% Whey, 1 Kg",
+    "price": "₹ 3499",
+    "offer": ""
+  },
+  {
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/96T9f13kUMuksgadqCbZC1Ys",
+    "company": "Azani",
+    "title": "Azani Calcium & Vitamin D Bone Support Gummies for Adults & Kids",
+    "price": "₹ 284",
+    "offer": "48 % Off"
+  }
+]
 }
