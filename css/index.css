@@ -200,8 +200,12 @@
   height: 800px;
   width: 100%;
 }
-
-
+.bigcart_hover{
+  transition: 1s;
+}
+.bigcart_hover:hover{
+  transform: scale(1.3);
+}
 /* cart  */
 
 #mainCartContantPagr {

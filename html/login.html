@@ -78,7 +78,7 @@
       color: grey;
     }
 
-    #phoneNo,
+    .phoneNo,
     .signUp__inputs {
       border: 0;
       outline: 0;
@@ -86,8 +86,8 @@
       border-bottom: 1px solid white;
       color: white;
       font-size: 15px;
-      margin-top: 5%;
-      margin-bottom: 10%;
+      /* margin-top: 5%; */
+      /* margin-bottom: 10%; */
     }
 
     .kLogin>li {
@@ -219,8 +219,9 @@
           src="data:image/png;base64,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"
           alt="name" />
 
-        <input type="tel" id="phoneNo" placeholder="Enter your phone number" />
-        <button onclick="login()" class="login__continueBtn">Continue</button>
+        <input type="tel" class="phoneNo" id="password1" placeholder="Enter your phone number" /><br><br>
+        <input type="tel" class="phoneNo" id="username1" placeholder="Enter your username" />
+        <button onclick="login(event)" class="login__continueBtn">Continue</button>
 
 
         <button class="login__google" onclick="changelayout()">
@@ -250,25 +251,25 @@
 </script>
 <script>
 
-  function login() {
-    var number = document.getElementById("phoneNo").value;
-    var data = JSON.parse(localStorage.getItem("user"));
+  // function login() {
+  //   var number = document.getElementById("phoneNo").value;
+  //   var data = JSON.parse(localStorage.getItem("user"));
 
-    if (data.phone === number) {
-      let loginStatus = "true"
-      localStorage.setItem("loginStatus",JSON.stringify(loginStatus));
-      alert("User login successfully");
-      window.location.href = "../index.html"
-    }
+  //   if (data.phone === number) {
+  //     let loginStatus = "true"
+  //     localStorage.setItem("loginStatus",JSON.stringify(loginStatus));
+  //     alert("User login successfully");
+  //     window.location.href = "../index.html"
+  //   }
 
-    else {
-      alert("User not found");
-      return
-    }
+  //   else {
+  //     alert("User not found");
+  //     return
+  //   }
 
 
 
-  }
+  // }
   function openLogin() {
 
     var div = document.getElementById("loginCon");
@@ -371,21 +372,23 @@
     <button onclick="changelayout()"><i class="fa fa-chevron-left" aria-hidden="true" style="color: "#fd306b""></i></button>
     </div>
     <h1>Create an account</h1>    
-    
+    <input  class="signUp__inputs" id="name" type="text" placeholder="Name" required /> <br><br>
+    <input  class="signUp__inputs" id="email" type="text" placeholder="Email Id" required /> <br><br>
+    <input  class="signUp__inputs" id="password" type="password" placeholder="Password" required /><br><br>
     <input  class="signUp__inputs" id="username" type="text" placeholder="Name" required /> <br><br>
   
-    <input class="signUp__inputs" id="phone" type="phone" placeholder="Phone" required /><br><br>
-    <input  class="signUp__inputs" id="email" type="text" placeholder="Email Id" required /> <br><br>
+    <input class="signUp__inputs" id="mobile" type="phone" placeholder="Phone" required /><br><br>
+    <input  class="signUp__inputs" id="description" type="text" placeholder="description" required /> <br><br>
   
 
-    <input  class="signUp__inputs" id="password" type="password" placeholder="Password" required />
+ 
     
     
     <p> <input type="checkbox"  class="checkbox" id="checkbox" required><em style="color: white"> By Continuing you agree to the</em>
       <em style="color: red">Terms of Services</em> and
       <em style="color: red">Privacy policy</em>.</p>
 
-      <button class="signUp__button" onclick="createUser()" > Create </button>
+      <button class="signUp__button" onclick="register()"> Create </button>
 
     `;
 
@@ -445,5 +448,74 @@
 
 
   }
+
+
+  async function register() {
+
+let signup_data = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    password: document.getElementById("password").value,
+    username: document.getElementById("username").value,
+    mobile: document.getElementById("mobile").value,
+    description: document.getElementById("description").value,
+}
+
+signup_data = JSON.stringify(signup_data)
+let response = await fetch("http://masai-api-mocker.herokuapp.com/auth/register", {
+
+    method: "POST",
+    body: signup_data,
+    headers: { "Content-Type": "application/json" },
+})
+
+let data = await response.json()
+console.log(data);
+alert("Registed Successfully")
+window.location.href=""
+}
+
+function login(e) {
+e.preventDefault()
+let login_data = {
+    password: document.getElementById("password1").value,
+    username: document.getElementById("username1").value,
+}
+//  console.log(login_data);
+body1 = JSON.stringify(login_data)
+
+fetch("http://masai-api-mocker.herokuapp.com/auth/login", {
+
+    method: "POST",
+    body: body1,
+    headers: { "Content-Type": "application/json" },
+}).then((response) => {
+    return response.json()
+}).then((response) => {
+    let loginstatus="true"
+    localStorage.setItem("login-status",JSON.stringify(loginstatus))
+    // console.log(response);
+    alert("User login successfully");
+      window.location.href = "../index.html"
+    console.log(login_data);
+    // profile(response, login_data)
+}).catch((err) => {
+    console.log(err);
+});
+
+
+// login_data=JSON.stringify(login_data)
+// let response= await fetch("http://masai-api-mocker.herokuapp.com/auth/login",{
+
+//     method:"POST",
+//     body: login_data,
+//     headers:{ "Content-Type":"application/json"},
+// })
+
+// let data =await response.json()
+// profile(response,login_data)
+// console.log(data);
+}
+
 
 </script>
