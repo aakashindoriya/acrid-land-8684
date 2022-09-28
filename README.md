@@ -1,8 +1,5 @@
-# acrid-land-8684
+# Cult.fit Clone
 clone of https://www.cure.fit 
-
-
-Cult.fit Clone
 
 Cult.fit Clone. This is a collaborative project made for educational purpose only by Karishma Gupta (fw18_0643) , Aakash Indoriya (fw19_0693) , Saraswat Abhinandan ,Danish Pinjari ,Deepak Patil.
 
